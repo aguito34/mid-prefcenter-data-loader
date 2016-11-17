@@ -1,0 +1,27 @@
+[
+   ;;answer attribute
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/twTransactData
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "TW Transactional data score"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/schoolModel
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "School Plan Model Score"
+    :db.install/_attribute :db.part/db}
+
+    ;; question/type enum - questions with score
+   [:db/add #db/id[:db.part/user] :db/ident :question/twTransactData :db/doc "Transact Data Score"]
+   [:db/add #db/id[:db.part/user] :db/ident :question/schoolModel :db/doc "School Model Score"]
+   [:db/add #db/id[:db.part/user] :db/ident :question/excludeCigaretteAds :db/doc "exclude cigarette Ads"]
+
+    ;; :survey/demoOffer enum
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/AEWI :db/doc "Transact Data Score demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/ASCL :db/doc "School Model Score demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/CIGS :db/doc "exclude cigarette Ads demo offer code"]
+ ]

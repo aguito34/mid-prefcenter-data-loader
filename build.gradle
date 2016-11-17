@@ -1,0 +1,124 @@
+buildscript {
+    repositories {
+        maven {
+            url 'https://timeinc.artifactoryonline.com/timeinc/libs-snapshot'
+            credentials {
+                username = "${artifactory_user}"
+                password = "${artifactory_password}"
+            }
+        }
+        maven {
+            url 'https://jcenter.bintray.com'
+        }
+    }
+    dependencies {
+        //Check for the latest version here: http://plugins.gradle.org/plugin/com.jfrog.artifactory
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4+"
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.3'
+    }
+}
+
+group 'Transactor'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'application'
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+sourceCompatibility = 1.8
+
+mainClassName = 'com.timeinc.rde.prefCenter.Transactor'
+
+
+repositories {
+    maven {
+        url "https://timeinc.artifactoryonline.com/timeinc/ext-release-local/"
+        credentials {
+            username = "${artifactory_user}"
+            password = "${artifactory_password}"
+        }
+    }
+    maven {
+        url "https://timeinc.artifactoryonline.com/timeinc/central/"
+        credentials {
+            username = "${artifactory_user}"
+            password = "${artifactory_password}"
+        }
+    }
+}
+
+dependencies {
+    compile 'org.json:json:20160212','org.antlr:antlr4-runtime:4.5.2-1'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'org.apache.commons:commons-csv:1.2'
+    compile('com.datomic:datomic-pro:0.9.5390'){
+        exclude group: 'org.slf4j', module: 'slf4j-nop'
+        exclude group: 'org.slf4j', module: 'log4j-over-slf4j'
+    }
+    compile 'org.slf4j:slf4j-log4j12:1.7.21'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+
+    compile group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.26'
+    compile group: 'com.amazonaws', name: 'aws-java-sdk-dynamodb', version: '1.11.26'
+
+    compile 'org.clojure:clojure:1.9.0-alpha10'
+    testCompile 'org.mockito:mockito-core:1.10.19'
+    testCompile 'org.easytesting:fest-assert-core:2.0M10'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+}
+
+//create a single Jar with all dependencies
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
+artifacts {
+    archives shadowJar
+}
+
+shadowJar {
+    mergeServiceFiles()
+}
+
+allprojects {
+    apply plugin: "com.jfrog.artifactory"
+}
+
+artifactory {
+    contextUrl = "https://timeinc.artifactoryonline.com/timeinc/"   //The base Artifactory URL if not overridden by the publisher/resolver
+    publish {
+        repository {
+            repoKey = 'libs-snapshot-local'
+            username = "${artifactory_user}"
+            password = "${artifactory_password}"
+            maven = true
+
+        }
+    }
+    resolve {
+        repository {
+            repoKey = 'libs-release'
+            username = "${artifactory_user}"
+            password = "${artifactory_password}"
+            maven = true
+
+        }
+    }
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "https://timeinc.artifactoryonline.com/timeinc/build-artifacts") {
+                authentication(userName: artifactory_user, password: artifactory_password)
+            }
+            pom.version = "1.0-SNAPSHOT"
+            pom.artifactId = "PreferencesCenterResourceTransactor"
+            pom.groupId = "com.timeinc"
+        }
+    }
+}

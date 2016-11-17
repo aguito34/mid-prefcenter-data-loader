@@ -1,0 +1,310 @@
+[
+{ 
+:db/id #db/id[db.part/user -3145070] 
+:system/magcd :magcd/GF 
+:log/acctid 94858 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2009-12-30T00:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 113 
+:batchNumber "0076004" 
+}
+
+{ 
+:db/id #db/id[db.part/user -3145072] 
+:system/magcd :magcd/GF 
+:log/acctid 94858 
+:log/isCustomerInput false
+:question/type :question/affluentEditionCorpDb 
+:originalTimeStamp #inst "2016-07-22T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AFFL 
+:answer/affluentEditionCorpDb 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -3145073] 
+:system/magcd :magcd/GF 
+:log/acctid 94858 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2016-07-28T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+{ 
+:db/id #db/id[db.part/user -3145074] 
+:system/magcd :magcd/GF 
+:log/acctid 172580784 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2016-08-09T00:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 95 
+:batchNumber "0076004" 
+}
+
+{ 
+:db/id #db/id[db.part/user -3145076] 
+:system/magcd :magcd/GF 
+:log/acctid 172581264 
+:log/isCustomerInput false
+:question/type :question/affluentEditionCorpDb 
+:originalTimeStamp #inst "2014-09-18T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AFFL 
+:answer/affluentEditionCorpDb 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -3145077] 
+:system/magcd :magcd/GF 
+:log/acctid 172581264 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2014-10-14T00:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 113 
+:batchNumber "0076004" 
+}
+{ 
+:db/id #db/id[db.part/user -3145078] 
+:system/magcd :magcd/GF 
+:log/acctid 172581264 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2015-03-24T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -3145080] 
+:system/magcd :magcd/GF 
+:log/acctid 172581365 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2015-03-24T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -3145082] 
+:system/magcd :magcd/GF 
+:log/acctid 172581695 
+:log/isCustomerInput false
+:question/type :question/affluentEditionCorpDb 
+:originalTimeStamp #inst "2012-11-06T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AFFL 
+:answer/affluentEditionCorpDb 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -3145083] 
+:system/magcd :magcd/GF 
+:log/acctid 172581695 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2012-11-07T00:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 95 
+:batchNumber "0076004" 
+}
+{ 
+:db/id #db/id[db.part/user -3145084] 
+:system/magcd :magcd/GF 
+:log/acctid 172581695 
+:log/isCustomerInput false
+:question/type :question/capModel 
+:originalTimeStamp #inst "2012-06-05T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AMDL 
+:answer/capModel 8 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -3145085] 
+:system/magcd :magcd/GF 
+:log/acctid 172581695 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2015-03-24T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -3145087] 
+:system/magcd :magcd/GF 
+:log/acctid 172582687 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2015-08-11T00:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 225 
+:batchNumber "0076004" 
+}
+{ 
+:db/id #db/id[db.part/user -3145088] 
+:system/magcd :magcd/GF 
+:log/acctid 172582687 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2016-04-08T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -3145090] 
+:system/magcd :magcd/GF 
+:log/acctid 172582786 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2016-05-19T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -3145092] 
+:system/magcd :magcd/GF 
+:log/acctid 172583080 
+:log/isCustomerInput false
+:question/type :question/affluentEditionCorpDb 
+:originalTimeStamp #inst "2013-01-09T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AFFL 
+:answer/affluentEditionCorpDb 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -3145093] 
+:system/magcd :magcd/GF 
+:log/acctid 172583080 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2013-01-03T00:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 95 
+:batchNumber "0076004" 
+}
+{ 
+:db/id #db/id[db.part/user -3145094] 
+:system/magcd :magcd/GF 
+:log/acctid 172583080 
+:log/isCustomerInput false
+:question/type :question/capModel 
+:originalTimeStamp #inst "2013-03-11T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AMDL 
+:answer/capModel 6 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -3145096] 
+:system/magcd :magcd/GF 
+:log/acctid 172583810 
+:log/isCustomerInput false
+:question/type :question/affluentEditionCorpDb 
+:originalTimeStamp #inst "2015-12-29T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AFFL 
+:answer/affluentEditionCorpDb 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -3145097] 
+:system/magcd :magcd/GF 
+:log/acctid 172583810 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2015-11-04T00:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 161 
+:batchNumber "0076004" 
+}
+{ 
+:db/id #db/id[db.part/user -3145098] 
+:system/magcd :magcd/GF 
+:log/acctid 172583810 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2015-11-19T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -3145100] 
+:system/magcd :magcd/GF 
+:log/acctid 172584551 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2015-12-02T00:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 121 
+:batchNumber "0076004" 
+}
+{ 
+:db/id #db/id[db.part/user -3145101] 
+:system/magcd :magcd/GF 
+:log/acctid 172584551 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2015-12-10T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+]

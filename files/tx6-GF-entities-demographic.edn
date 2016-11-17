@@ -1,0 +1,166 @@
+[
+ ;;rule for handcap
+ {
+  :db/id                      #db/id[:db.part/user -1]
+  :operator/lte              999
+  :operator/gte              0
+  }
+ ;;Rule Entity
+
+ {
+  :db/id                      #db/id[:db.part/user -2]
+  :dnfRule/expression         #db/id[:db.part/user -1]
+  }
+
+ ;;--------------------golf avg score----------------------
+ ;; QUESTIONS
+ {
+  :db/id                      #db/id[:db.part/user -2000]
+  :question/type              :question/averageGolfScore
+  :question/demoCode          "AGS"
+  :question/displayName       "AVERAGE GOLF SCORE"
+  :question/createdBy         :magcd/GF
+  }
+ ;;answer
+ {
+  :db/id                      #db/id[:db.part/user -20001]
+  :question/type              :question/averageGolfScore
+  :answer/quantityType        "S"
+  :answer/displayName         "Average Golf Score - enter a number"
+  }
+ ;; ags-ss
+ {
+  :db/id                      #db/id[:db.part/user -20200]
+  :sizeOfSelection/dnfRule    :rule/one
+  :answerSet/answer           [#db/id[:db.part/user -20001]]
+    :system/demoOffer         :demoOffer/AAGS
+  }
+ ;;guuid-ags-form
+ {
+  :db/id                       #db/id[:db.part/user -20400]
+  :form/question               #db/id[:db.part/user -2000]
+  :form/sampleSpace            #db/id[:db.part/user -20200]
+  }
+ ;;report
+ {
+  :db/id                     #db/id[:db.part/user -960118]
+  :question/type             :question/averageGolfScore
+  :constraint/dnfRule         :rule/storeMax999
+  :report/demoType            "M"
+  :report/sourceType          "L"
+  }
+
+ ;;--------------------round played score----------------------
+ ;;question
+ {
+  :db/id                      #db/id[:db.part/user -203]
+  :question/type              :question/respondToGolfRoundPlayed
+  :question/demoCode           "GLF"
+  :question/displayName        "SI GOLF PLUS SURVEY REPONDERS ROUNDS PLAYED"
+  :question/createdBy         :magcd/GF
+  }
+ ;;answer
+ {
+  :db/id                     #db/id[:db.part/user -103]
+  :question/type              :question/respondToGolfRoundPlayed
+  :answer/quantityType        "S"
+  :answer/displayName         "golf round played score"
+  }
+ ;;sample space
+ {
+  :db/id                       #db/id[:db.part/user -302]
+  :sizeOfSelection/dnfRule     :rule/one
+  :answerSet/answer            [#db/id[:db.part/user -103]]
+   :system/demoOffer            :demoOffer/AGLF
+  }
+ ;;form
+ {
+  :db/id                       #db/id[:db.part/user -403]
+  :form/question               #db/id[:db.part/user -203]
+  :form/sampleSpace             #db/id[:db.part/user -302]
+  }
+ ;;REPORT
+ {
+  :db/id                     #db/id[:db.part/user -960006]
+  :question/type             :question/respondToGolfRoundPlayed
+  :constraint/dnfRule         :rule/storeMax999
+  :report/demoType            "M"
+  :report/sourceType          "L"
+  }
+
+;;--------------------affluent edition corp db----------------------
+ ;;question
+ {
+  :db/id                      #db/id[:db.part/user -201]
+  :question/type              :question/affluentEditionCorpDb
+  :question/demoCode           "AF3"
+  :question/displayName        "AFFLUENT EDITION CORP DATABASE"
+  :question/createdBy         :magcd/GF
+  }
+ ;;answer
+ {
+  :db/id                     #db/id[:db.part/user -101]
+  :question/type              :question/affluentEditionCorpDb
+  :answer/quantityType        "S"
+  :answer/displayName         "affluent edition corp score"
+  }
+ ;;sample space
+ {
+  :db/id                       #db/id[:db.part/user -300]
+  :sizeOfSelection/dnfRule     :rule/one
+  :answerSet/answer            [#db/id[:db.part/user -101]]
+   :system/demoOffer            :demoOffer/AFFL
+  }
+ ;;form
+ {
+  :db/id                       #db/id[:db.part/user -401]
+  :form/question               #db/id[:db.part/user -201]
+  :form/sampleSpace             #db/id[:db.part/user -300]
+  }
+ ;;form
+ {
+  :db/id                     #db/id[:db.part/user -960002]
+  :question/type             :question/affluentEditionCorpDb
+  :constraint/dnfRule         :rule/storeMax999
+  :report/demoType            "S"
+  :report/sourceType          "F"
+  }
+
+  ;; group all form entities
+    {
+      :db/id                      #db/id[:db.part/user -503]
+      :system/magcd               :magcd/GF
+      :allQuestions/form          [
+                                    ;; respondToGolfRoundPlayed
+                                    #db/id[:db.part/user -403]
+                                    ;; averageGolfScore
+                                    #db/id[:db.part/user -20400]
+                                    ;; affluentEditionCorpDb
+                                    #db/id[:db.part/user -401]
+
+                                    :form/income
+                                    :form/renewOnlineScore
+                                    :form/childBirthday
+                                    :form/birthdaySelfReport
+                                    :form/subscriberType
+                                    :form/capModel
+                                    :form/priceSensitivityModel
+                                  ]
+      :doNotShow/form             [
+                                    ;; respondToGolfRoundPlayed
+                                    #db/id[:db.part/user -403]
+                                    ;; averageGolfScore
+                                    #db/id[:db.part/user -20400]
+                                    ;; affluentEditionCorpDb
+                                    #db/id[:db.part/user -401]
+
+                                    :form/income
+                                    :form/renewOnlineScore
+                                    :form/childBirthday
+                                    :form/birthdaySelfReport
+                                    :form/subscriberType
+                                    :form/capModel
+                                    :form/priceSensitivityModel
+                                  ]
+    }
+]

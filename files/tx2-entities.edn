@@ -1,0 +1,235 @@
+    [
+    ;; importer entity for first two load.
+    {
+    :db/id #db/id[db.part/user -1010020310]
+    :importer/magCode "EW"
+    }
+
+    {
+    :db/id #db/id[db.part/user -1010020311]
+    :importer/magCode "GF"
+    }
+
+    ;; DNF EXPRESSIONS and RULE for storeMax
+    {
+    :db/id                      #db/id[:db.part/user -30020]
+    :operator/lte              1
+    :operator/gte              1
+    }
+    {
+    :db/id                      #db/id[:db.part/user -21111]
+    :db/ident                   :rule/one
+    :dnfRule/expression         #db/id[:db.part/user -30020]
+    }
+    {
+    :db/id                     #db/id[:db.part/user -98001]
+    :operator/lte              3
+    :operator/gte              3
+    }
+    {
+    :db/id                     #db/id[:db.part/user -99001]
+    :db/ident                  :rule/storeMax3
+    :dnfRule/expression         #db/id[:db.part/user -98001]
+    }
+    {
+    :db/id                     #db/id[:db.part/user -98002]
+    :operator/lte              9
+    :operator/gte              9
+    }
+    {
+    :db/id                     #db/id[:db.part/user -99002]
+    :db/ident                  :rule/storeMax9
+    :dnfRule/expression         #db/id[:db.part/user -98002]
+    }
+    {
+    :db/id                     #db/id[:db.part/user -88002]
+    :operator/lte              999
+    :operator/gte              999
+    }
+    {
+    :db/id                     #db/id[:db.part/user -8800211]
+    :db/ident                  :rule/storeMax999
+    :dnfRule/expression         #db/id[:db.part/user -88002]
+    }
+    {
+    :db/id                     #db/id[:db.part/user -98003]
+    :operator/lte              2
+    :operator/gte              2
+    }
+    {
+    :db/id                     #db/id[:db.part/user -99003]
+    :db/ident                  :rule/storeMax2
+    :dnfRule/expression         #db/id[:db.part/user -98003]
+    }
+    {
+    :db/id                     #db/id[:db.part/user -98004]
+    :operator/lte              50
+    :operator/gte              50
+    }
+    {
+    :db/id                     #db/id[:db.part/user -99004]
+    :db/ident                  :rule/storeMax50
+    :dnfRule/expression         #db/id[:db.part/user -98004]
+    }
+
+    ;; -------------------- REG E SELECTION ANSWER------------------------
+
+    {
+    :db/id                      #db/id[:db.part/user -1000]
+    :question/type              :question/regESelection
+    :question/demoCode          "REG"
+    :question/displayName       "REG E SELECTION"
+    :question/createdBy         :magcd/ALL
+    }
+
+    {
+    :db/id                      #db/id[:db.part/user -1001]
+    :question/type              :question/regESelection
+    :answer/demoChoice           "REG7"
+    :answer/displayName         "selection 7"
+    :answer/regESelection      :regESelection/REG7
+    }
+
+    {
+    :db/id                      #db/id[:db.part/user -1002]
+    :question/type              :question/regESelection
+    :answer/demoChoice           "REG9"
+    :answer/displayName         "selection 9"
+    :answer/regESelection      :regESelection/REG9
+    }
+
+    {
+    :db/id                      #db/id[:db.part/user -1003]
+    :question/type              :question/regESelection
+    :answer/demoChoice          "REGN"
+    :answer/displayName         "selection N"
+    :answer/regESelection      :regESelection/REGN
+    }
+
+    {
+    :db/id                      #db/id[:db.part/user -1004]
+    :question/type              :question/regESelection
+    :answer/demoChoice          "REGM"
+    :answer/displayName         "selection M"
+    :answer/regESelection      :regESelection/REGM
+    }
+    {
+    :db/id                      #db/id[:db.part/user -100411]
+    :question/type              :question/regESelection
+    :answer/demoChoice          "REG0"
+    :answer/displayName         "selection 0"
+    :answer/regESelection      :regESelection/REG0
+    }
+    {
+    :db/id                      #db/id[:db.part/user -100412]
+    :question/type              :question/regESelection
+    :answer/demoChoice          "REG1"
+    :answer/displayName         "selection 1"
+    :answer/regESelection      :regESelection/REG1
+    }
+    {
+    :db/id                      #db/id[:db.part/user -100413]
+    :question/type              :question/regESelection
+    :answer/demoChoice          "REG8"
+    :answer/displayName         "selection 8"
+    :answer/regESelection      :regESelection/REG8
+    }
+    {
+    :db/id                      #db/id[:db.part/user -1005]
+    :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+    :answerSet/answer           [#db/id[:db.part/user -1001] #db/id[:db.part/user -1002] #db/id[:db.part/user -1003] #db/id[:db.part/user -1004]
+                             #db/id[:db.part/user -100413] #db/id[:db.part/user -100412] #db/id[:db.part/user -100411]]
+    :system/demoOffer            :demoOffer/AREG
+    }
+    {
+    :db/id                       #db/id[:db.part/user -1006]
+    :db/ident                    :form/regESelection
+    :form/question               #db/id[:db.part/user -1000]
+    :form/sampleSpace            #db/id[:db.part/user -1005]
+    }
+
+    {
+    :db/id                     #db/id[:db.part/user -960134]
+    :question/type             :question/regESelection
+    :constraint/dnfRule        #db/id[:db.part/user -8800211]
+    :report/demoType            "M"
+    :report/sourceType          "O"
+    }
+
+    ;; -------------------- REG-DRG E SELECTION ANSWER------------------------
+    {
+    :db/id                      #db/id[:db.part/user -10001]
+    :question/type              :question/regESelectionDRG
+    :question/demoCode          "DRG"
+    :question/displayName       "REG-DRG E SELECTION"
+    :question/createdBy         :magcd/ALL
+    }
+
+    {
+    :db/id                      #db/id[:db.part/user -10012]
+    :question/type              :question/regESelectionDRG
+    :answer/demoChoice           "DREG"
+    :answer/displayName         "selection D"
+    :answer/regESelectionDRG      :regESelectionDRG/DREG
+    }
+
+    {
+    :db/id                      #db/id[:db.part/user -10053]
+    :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+    :answerSet/answer           [#db/id[:db.part/user -10012]]
+    :system/demoOffer            :demoOffer/ADRG
+    }
+    {
+    :db/id                       #db/id[:db.part/user -10061]
+    :db/ident                     :form/regESelectionDRG
+    :form/question               #db/id[:db.part/user -10001]
+    :form/sampleSpace            #db/id[:db.part/user -10053]
+    }
+
+    {
+    :db/id                     #db/id[:db.part/user -96013419]
+    :question/type             :question/regESelectionDRG
+    :constraint/dnfRule        #db/id[:db.part/user -8800211]
+    :report/demoType            "M"
+    :report/sourceType          "O"
+    }
+
+    ;; -------------------- REG-RG0 E SELECTION ANSWER------------------------
+    {
+    :db/id                      #db/id[:db.part/user -100011]
+    :question/type              :question/regESelectionRG0
+    :question/demoCode          "RG0"
+    :question/displayName       "REG-RG0 E SELECTION"
+    :question/createdBy         :magcd/ALL
+    }
+
+    {
+    :db/id                      #db/id[:db.part/user -100121]
+    :question/type              :question/regESelectionRG0
+    :answer/demoChoice          "REG0"
+    :answer/displayName         "selection 0"
+    :answer/regESelectionRG0      :regESelectionRG0/REG0
+    }
+
+    {
+    :db/id                      #db/id[:db.part/user -100531]
+    :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+    :answerSet/answer           [#db/id[:db.part/user -100121]]
+    :system/demoOffer           :demoOffer/ARG0
+    }
+    {
+    :db/id                       #db/id[:db.part/user -100611]
+    :db/ident                    :form/regESelectionRG0
+    :form/question               #db/id[:db.part/user -100011]
+    :form/sampleSpace            #db/id[:db.part/user -100531]
+    }
+    {
+    :db/id                     #db/id[:db.part/user -9601341]
+    :question/type             :question/regESelectionRG0
+    :constraint/dnfRule        #db/id[:db.part/user -8800211]
+    :report/demoType            "M"
+    :report/sourceType          "O"
+    }
+
+    ]
+

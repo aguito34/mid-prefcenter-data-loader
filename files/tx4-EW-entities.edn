@@ -1,0 +1,421 @@
+[
+
+ ;;Expression Entity
+
+ {
+	:db/id                      #db/id[:db.part/user -1032]
+	:operator/lte              3
+	:operator/gte              1
+	}
+ ;;Rule Entity
+
+ {
+	:db/id                      #db/id[:db.part/user -11033]
+	:dnfRule/expression         #db/id[:db.part/user -1032]
+	}
+
+ ;; -------------------- GENRE QUESTION ------------------------
+ ;;answers
+ {
+  :db/id                      #db/id[:db.part/user -1003]
+  :question/type              :question/faveGenre
+  :answer/demoChoice          "AN"
+  :answer/displayName         "ANIMATION"
+  :answer/faveGenre           :faveGenre/AN
+  }
+
+ {
+  :db/id                      #db/id[:db.part/user -1004]
+  :question/type              :question/faveGenre
+  :answer/demoChoice          "CM"
+  :answer/displayName         "COMEDY"
+  :answer/faveGenre           :faveGenre/CM
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1005]
+  :question/type              :question/faveGenre
+  :answer/demoChoice          "CR"
+  :answer/displayName         "CRIME"
+  :answer/faveGenre           :faveGenre/CR
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1006]
+  :question/type              :question/faveGenre
+  :answer/demoChoice          "HR"
+  :answer/displayName         "HORROR"
+  :answer/faveGenre           :faveGenre/HR
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1007]
+  :question/type              :question/faveGenre
+  :answer/demoChoice          "RL"
+  :answer/displayName         "REALITY"
+  :answer/faveGenre           :faveGenre/RL
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1008]
+  :question/type              :question/faveGenre
+  :answer/demoChoice          "SD"
+  :answer/displayName         "SERIAL DRAMA"
+  :answer/faveGenre           :faveGenre/SD
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1009]
+  :question/type              :question/faveGenre
+  :answer/demoChoice          "SF"
+  :answer/displayName         "SCI-FI/FANTASY"
+  :answer/faveGenre           :faveGenre/SF
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1010]
+  :question/type              :question/faveGenre
+  :answer/demoChoice          "SH"
+  :answer/displayName         "SUPERHEROES"
+  :answer/faveGenre           :faveGenre/SH
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1011]
+  :question/type              :question/faveGenre
+  :answer/demoChoice          "TN"
+  :answer/displayName         "TEEN"
+  :answer/faveGenre           :faveGenre/TN
+  }
+
+ ;;question
+ {
+	:db/id                      #db/id[:db.part/user -1000]
+	:question/type              :question/faveGenre
+	:question/demoCode          "GNR"
+	:question/displayName       "FAVORITE GENRE"
+	:question/createdBy         :magcd/EW
+	}
+
+ ;;AGNR
+ ;;form
+ {
+  :db/id                    #db/id[:db.part/user -1111035]
+  :form/question            #db/id[:db.part/user -1000]
+  :form/sampleSpace         #db/id[:db.part/user -1111034]
+  }
+ ;;sample space
+ {
+	:db/id                      #db/id[:db.part/user -1111034]
+	:sizeOfSelection/dnfRule    :rule/one
+	:system/demoOffer           :demoOffer/AGNR
+	:answerSet/answer           [#db/id[:db.part/user -1003] #db/id[:db.part/user -1004] #db/id[:db.part/user -1005]
+															 #db/id[:db.part/user -1006] #db/id[:db.part/user -1007] #db/id[:db.part/user -1008]
+															 #db/id[:db.part/user -1009] #db/id[:db.part/user -1010] #db/id[:db.part/user -1011]
+															 ]
+	}
+
+ ;;mrvl genre
+ ;;form
+ {
+  :db/id                    #db/id[:db.part/user -11111035]
+  :form/question            #db/id[:db.part/user -1000]
+  :form/sampleSpace         #db/id[:db.part/user -11111034]
+  }
+ ;;sample space
+ {
+  :db/id                      #db/id[:db.part/user -11111034]
+  :sizeOfSelection/dnfRule    :rule/one
+  :answerSet/answer           [#db/id[:db.part/user -1010]]
+  :system/demoOffer         :demoOffer/MRVL
+  }
+
+
+ ;;CGNR genre
+ ;;form
+ {
+	:db/id                    #db/id[:db.part/user -111110352]
+	:form/question            #db/id[:db.part/user -1000]
+	:form/sampleSpace         #db/id[:db.part/user -111110342]
+	}
+ ;;sample space
+ {
+	:db/id                      #db/id[:db.part/user -111110342]
+	:sizeOfSelection/dnfRule    :rule/one
+	:answerSet/answer           [#db/id[:db.part/user -1010]]
+	:system/demoOffer         :demoOffer/CGNR
+	}
+
+ ;;real genre
+ ;;form
+ {
+  :db/id                    #db/id[:db.part/user -111111035]
+  :form/question            #db/id[:db.part/user -1000]
+  :form/sampleSpace         #db/id[:db.part/user -111111034]
+  }
+ ;;sample space
+ {
+  :db/id                      #db/id[:db.part/user -111111034]
+  :sizeOfSelection/dnfRule    :rule/one
+  :answerSet/answer           [#db/id[:db.part/user -1007]]
+  :system/demoOffer         :demoOffer/REAL
+  }
+ ;;report
+ {
+  :db/id                     #db/id[:db.part/user -9000]
+  :question/type             :question/faveGenre
+  :constraint/dnfRule        :rule/storeMax999
+  :report/demoType            "M"
+  :report/sourceType          "F"
+  }
+
+
+
+ ;;------------------------favorite TV show ------------------------
+ {
+  :db/id                      #db/id[:db.part/user -1012]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "AG"
+  :answer/displayName         "AGENTS OF S.H.I.E.L.D."
+  :answer/faveTvShow          :faveTvShow/AG
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1013]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "AH"
+  :answer/displayName         "AMERICAN HORROR STORY"
+  :answer/faveTvShow          :faveTvShow/AH
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1014]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "AW"
+  :answer/displayName         "ARROW"
+  :answer/faveTvShow          :faveTvShow/AW
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1015]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "BB"
+  :answer/displayName         "BOB'S BURGERS"
+  :answer/faveTvShow          :faveTvShow/BB
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1016]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "BN"
+  :answer/displayName         "BROOKLYN NINE-NINE"
+  :answer/faveTvShow          :faveTvShow/BN
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1017]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "DA"
+  :answer/displayName         "DOWNTON ABBEY"
+  :answer/faveTvShow          :faveTvShow/DA
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1018]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "DW"
+  :answer/displayName         "DOCTOR WHO"
+  :answer/faveTvShow          :faveTvShow/DW
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1019]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "GT"
+  :answer/displayName         "GAME OF THRONES"
+  :answer/faveTvShow          :faveTvShow/GT
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1020]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "HC"
+  :answer/displayName         "HOUSE OF CARDS"
+  :answer/faveTvShow          :faveTvShow/HC
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1021]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "LO"
+  :answer/displayName         "LAW AND ORDER"
+  :answer/faveTvShow          :faveTvShow/LO
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1022]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "OB"
+  :answer/displayName         "ORPHAN BLACK"
+  :answer/faveTvShow          :faveTvShow/OB
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1023]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "ON"
+  :answer/displayName         "ORANGE IS THE NEW BLACK"
+  :answer/faveTvShow          :faveTvShow/ON
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1024]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "OT"
+  :answer/displayName         "ONCE UPON A TIME"
+  :answer/faveTvShow          :faveTvShow/OT
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1025]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "SC"
+  :answer/displayName         "SCANDAL"
+  :answer/faveTvShow          :faveTvShow/SC
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1026]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "SH"
+  :answer/displayName         "SLEEPY HOLLOW"
+  :answer/faveTvShow          :faveTvShow/SH
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1027]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "SK"
+  :answer/displayName         "SHERLOCK"
+  :answer/faveTvShow          :faveTvShow/SK
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1028]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "TB"
+  :answer/displayName         "THE BACHELOR"
+  :answer/faveTvShow          :faveTvShow/TB
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1029]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "TV"
+  :answer/displayName         "THE VOICE"
+  :answer/faveTvShow          :faveTvShow/TV
+  }
+ {
+  :db/id                      #db/id[:db.part/user -1030]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "WD"
+  :answer/displayName         "THE WALKING DEAD"
+  :answer/faveTvShow          :faveTvShow/WD
+  }
+ {
+  :db/id                      #db/id[:db.part/user -11030]
+  :question/type              :question/faveTvShow
+  :answer/demoChoice          "Z"
+  :answer/displayName         "OTHER"
+  :answer/unknown          		true
+  }
+
+ ;; Question entities
+    {
+        :db/id                      #db/id[:db.part/user -1002]
+        :question/type              :question/faveTvShow
+        :question/demoCode        "TVS"
+        :question/displayName       "FAVORITE TV SHOW"
+        :question/createdBy         :magcd/EW
+    }
+
+ ;;ATVS
+ ;;form
+ {
+  :db/id                    #db/id[:db.part/user -1035]
+  :form/question            #db/id[:db.part/user -1002]
+  :form/sampleSpace         #db/id[:db.part/user -1034]
+  }
+ ;;sample space
+ {                                                          ;; favorite TV show
+  :db/id                      #db/id[:db.part/user -1034]
+  :sizeOfSelection/dnfRule    #db/id[:db.part/user -11033]
+  :system/demoOffer         :demoOffer/ATVS
+  :answerSet/answer           [#db/id[:db.part/user -1012]  #db/id[:db.part/user -1013]  #db/id[:db.part/user -1014]
+                               #db/id[:db.part/user -1015]  #db/id[:db.part/user -1016]  #db/id[:db.part/user -1017]
+                               #db/id[:db.part/user -1018]  #db/id[:db.part/user -1019]  #db/id[:db.part/user -1020]
+                               #db/id[:db.part/user -1021]  #db/id[:db.part/user -1022]  #db/id[:db.part/user -1023]
+                               #db/id[:db.part/user -1024]  #db/id[:db.part/user -1025]  #db/id[:db.part/user -1026]
+                               #db/id[:db.part/user -1027]  #db/id[:db.part/user -1028]  #db/id[:db.part/user -1029]
+                               #db/id[:db.part/user -1030] #db/id[:db.part/user -11030]
+                               ]
+  }
+
+ ;;GAME
+ ;;form
+ {
+  :db/id                    #db/id[:db.part/user -11035]
+  :form/question            #db/id[:db.part/user -1002]
+  :form/sampleSpace         #db/id[:db.part/user -11034]
+  }
+ ;;sample space
+ {
+  :db/id                      #db/id[:db.part/user -11034]
+  :sizeOfSelection/dnfRule    #db/id[:db.part/user -11033]
+  :answerSet/answer           [#db/id[:db.part/user -1019]]
+  :system/demoOffer         :demoOffer/GAME
+  }
+
+ ;;WALK
+ ;;form Entity
+ {
+  :db/id                    #db/id[:db.part/user -111035]
+  :form/question            #db/id[:db.part/user -1002]
+  :form/sampleSpace         #db/id[:db.part/user -111034]
+  }
+ ;;Space Entity
+ {
+  :db/id                      #db/id[:db.part/user -111034]
+  :sizeOfSelection/dnfRule    #db/id[:db.part/user -11033]
+  :answerSet/answer           [#db/id[:db.part/user -1030]]
+  :system/demoOffer         :demoOffer/WALK
+  }
+ ;;report
+ {
+  :db/id                     #db/id[:db.part/user -9001]
+  :question/type             :question/faveTvShow
+  :constraint/dnfRule        :rule/storeMax999
+  :report/demoType            "M"
+  :report/sourceType          "F"
+  }
+
+
+
+  ;; group all form entities
+  {
+    :db/id                      #db/id[:db.part/user -710]
+    :system/magcd               :magcd/EW
+    :allQuestions/form          [
+                                    ;; AGNR
+                                    #db/id[:db.part/user -1111035]
+                                    ;; ATVS
+                                    #db/id[:db.part/user -1035]
+                                    ;; GAME
+                                    #db/id[:db.part/user -11035]
+                                    ;; WLK
+                                    #db/id[:db.part/user -111035]
+                                    ;; MRVL
+                                    #db/id[:db.part/user -11111035]
+                                    ;; REAL
+                                    #db/id[:db.part/user -111111035]
+                                    ;; CGNR
+                                    #db/id[:db.part/user -111110352]
+                                    :form/regESelectionRG0
+                                    :form/regESelectionDRG
+                                    :form/regESelection
+                                ]
+    :doNotShow/form             [
+                                    ;; GAME
+                                    #db/id[:db.part/user -11035]
+                                    ;; WALK
+                                    #db/id[:db.part/user -111035]
+                                    ;; MRVL
+                                    #db/id[:db.part/user -11111035]
+                                    ;; REAL
+                                    #db/id[:db.part/user -111111035]
+                                    ;; CGNR
+                                    #db/id[:db.part/user -111110352]
+                                    :form/regESelectionRG0
+                                    :form/regESelectionDRG
+                                    :form/regESelection
+                                ]
+  }
+
+
+ ]

@@ -1,0 +1,34 @@
+[
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/averageGolfScore
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "average golf score"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/respondToGolfRoundPlayed
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "gold round played score"
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/affluentEditionCorpDb
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "affluent edition corp database score"
+    :db.install/_attribute :db.part/db}
+
+
+    ;; question/type enum
+    [:db/add #db/id[:db.part/user] :db/ident :question/averageGolfScore :db/doc "AGS question"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/respondToGolfRoundPlayed :db/doc "GLF question"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/affluentEditionCorpDb :db/doc "AF3 question"]
+
+    ;; :survey/demoOffer enum
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/AAGS :db/doc "AGS question"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/AGLF :db/doc "GLF question"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/AFFL :db/doc "AF3 question"]
+
+ ]

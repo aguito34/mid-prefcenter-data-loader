@@ -1,0 +1,392 @@
+[
+    ;; importer entity for first two load.
+    {
+    :db/id #db/id[db.part/user -1010020310]
+    :importer/magCode "EW"
+    }
+
+    {
+    :db/id #db/id[db.part/user -1010020311]
+    :importer/magCode "GF"
+    }
+
+       ;; COMMON DNF EXPRESSIONS AND RULES
+       {
+       :db/id                      #db/id[:db.part/user -30020]
+       :operator/lte              1
+       :operator/gte              1
+       }
+       {
+       :db/id                      #db/id[:db.part/user -21111]
+       :db/ident                   :rule/one
+       :dnfRule/expression         #db/id[:db.part/user -30020]
+       }
+       {
+       :db/id                     #db/id[:db.part/user -88002]
+       :operator/lte              999
+       :operator/gte              999
+       }
+       {
+       :db/id                     #db/id[:db.part/user -8800211]
+       :db/ident                  :rule/storeMax999
+       :dnfRule/expression         #db/id[:db.part/user -88002]
+       }
+
+     ;; -------------------- SUBSCRIBER TYPE ------------------------
+
+        {
+            :db/id                      #db/id[:db.part/user -2007]
+            :question/type              :question/subscriberType
+            :question/demoCode          "UMS"
+            :question/displayName       "SUBSCRIBER TYPE"
+            :question/createdBy         :magcd/ALL
+        }
+
+        ;; guuid-subscriberType-1
+        {
+            :db/id                      #db/id[:db.part/user -3001]
+            :question/type              :question/subscriberType
+            :answer/demoChoice           "01"
+            :answer/displayName         "MATURE PRAGMATISTS"
+            :answer/subscriberType      :subscriberType/ONE
+        }
+       ;; guuid-subscriberType-2
+       {
+           :db/id                      #db/id[:db.part/user -3002]
+           :question/type              :question/subscriberType
+           :answer/demoChoice           "02"
+           :answer/displayName         "FEMALE BOOKWORMS"
+           :answer/subscriberType      :subscriberType/TWO
+       }
+       ;; guuid-subscriberType-3
+       {
+           :db/id                      #db/id[:db.part/user -3003]
+           :question/type              :question/subscriberType
+           :answer/demoChoice          "03"
+           :answer/displayName         "YOUNG DIGITAL FASHIONISTAS"
+           :answer/subscriberType      :subscriberType/THREE
+       }
+       ;; guuid-subscriberType-4
+       {
+           :db/id                      #db/id[:db.part/user -3004]
+           :question/type              :question/subscriberType
+           :answer/demoChoice          "04"
+           :answer/displayName         "MEDIA HOOKED MULTICULTURAL MEN"
+           :answer/subscriberType      :subscriberType/FOUR
+       }
+       ;; guuid-subscriberType-5
+       {
+           :db/id                      #db/id[:db.part/user -3005]
+           :question/type              :question/subscriberType
+           :answer/demoChoice          "05"
+           :answer/displayName         "WORK-LIFE BALANCERS"
+           :answer/subscriberType      :subscriberType/FIVE
+       }
+       ;; guuid-subscriberType-6
+       {
+           :db/id                      #db/id[:db.part/user -3006]
+           :question/type              :question/subscriberType
+           :answer/demoChoice          "06"
+           :answer/displayName         "STRUGGLING DIGITAL ESCAPISTS"
+           :answer/subscriberType      :subscriberType/SIX
+       }
+       ;; guuid-subscriberType-7
+      {
+          :db/id                      #db/id[:db.part/user -3007]
+          :question/type              :question/subscriberType
+          :answer/demoChoice          "07"
+          :answer/displayName         "AFFLUENT TRADITIONALISTS"
+          :answer/subscriberType      :subscriberType/SEVEN
+      }
+       ;; guuid-subscriberType-8
+       {
+           :db/id                      #db/id[:db.part/user -3008]
+           :question/type              :question/subscriberType
+           :answer/demoChoice          "08"
+           :answer/displayName         "CONTEMPORARY HOME-CENTRICS"
+           :answer/subscriberType      :subscriberType/EIGHT
+       }
+       ;; guuid-subscriberType-9
+       {
+           :db/id                      #db/id[:db.part/user -3009]
+           :question/type              :question/subscriberType
+           :answer/demoChoice          "09"
+           :answer/displayName         "DIGITAL ALL-AMERICAN GUYS"
+           :answer/subscriberType      :subscriberType/NINE
+       }
+       ;; guuid-subscriberType-10
+      {
+          :db/id                      #db/id[:db.part/user -3010]
+          :question/type              :question/subscriberType
+          :answer/demoChoice          "10"
+          :answer/displayName         "OLD MOUSE POTATOES"
+          :answer/subscriberType      :subscriberType/TEN
+      }
+      ;; guuid-subscriberType-11
+      {
+          :db/id                      #db/id[:db.part/user -3011]
+          :question/type              :question/subscriberType
+          :answer/demoChoice          "11"
+          :answer/displayName         "VERY VICARIOUS"
+          :answer/subscriberType      :subscriberType/ELEVEN
+      }
+      ;; guuid-subscriberType-12
+      {
+          :db/id                      #db/id[:db.part/user -3012]
+          :question/type              :question/subscriberType
+          :answer/demoChoice          "12"
+          :answer/displayName         "CULTURED AND PROUD"
+          :answer/subscriberType      :subscriberType/TWELVE
+      }
+     ;;SS
+       {
+        :db/id                      #db/id[:db.part/user -304322222]
+        :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+        :system/demoOffer            :demoOffer/AUMS
+        :answerSet/answer           [#db/id[:db.part/user -3001] #db/id[:db.part/user -3002] #db/id[:db.part/user -3003] #db/id[:db.part/user -3004]
+                                     #db/id[:db.part/user -3005] #db/id[:db.part/user -3006] #db/id[:db.part/user -3007] #db/id[:db.part/user -3008]
+                                     #db/id[:db.part/user -3009] #db/id[:db.part/user -3010] #db/id[:db.part/user -3011] #db/id[:db.part/user -3012]]
+        }
+     ;;FORM
+       {
+        :db/id                       #db/id[:db.part/user -304422222]
+        :db/ident                    :form/subscriberType
+        :form/question               #db/id[:db.part/user -2007]
+        :form/sampleSpace            #db/id[:db.part/user -304322222]
+        }
+
+     ;;report
+       {
+        :db/id                      #db/id[:db.part/user -8800911]
+        :question/type             :question/subscriberType
+        :constraint/dnfRule        #db/id[:db.part/user -8800211]
+        :report/demoType            "M"
+        :report/sourceType          "F"
+        }
+
+        ;; ------------------ INCOME --------------------
+
+        {
+            :db/id                      #db/id[:db.part/user -3023]
+            :question/type              :question/income
+            :answer/quantityType        "R"
+            :answer/displayName         "INCOME"
+        }
+
+        {
+            :db/id                      #db/id[:db.part/user -3024]
+            :question/type              :question/income
+            :question/demoCode          "INC"
+            :question/displayName       "What is your income?"
+            :question/createdBy         :magcd/ALL
+        }
+        {
+            :db/id                      #db/id[:db.part/user -3025]
+            :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+            :answerSet/answer           [#db/id[:db.part/user -3023]]
+            :system/demoOffer            :demoOffer/AINC
+        }
+        {
+            :db/id                       #db/id[:db.part/user -3026]
+            :db/ident                    :form/income
+            :form/question               #db/id[:db.part/user -3024]
+            :form/sampleSpace            #db/id[:db.part/user -3025]
+        }
+
+     ;;report
+       {
+        :db/id                     #db/id[:db.part/user -960130]
+        :question/type             :question/income
+        :constraint/dnfRule        #db/id[:db.part/user -8800211]
+        :report/demoType            "M"
+        :report/sourceType          "L"
+        }
+
+       ;; ------------------ SELF REPORTED BIRTHDAY --------------------
+     ;;answer
+        {
+            :db/id                      #db/id[:db.part/user -3035]
+            :question/type              :question/birthdaySelfReport
+            :answer/quantityType        "D"
+            :answer/displayName         "BIRTHDAY"
+        }
+      ;;question
+        {
+            :db/id                      #db/id[:db.part/user -3036]
+            :question/type              :question/birthdaySelfReport
+            :question/demoCode          "BDY"
+            :question/displayName       "When is your birthday?"
+            :question/createdBy         :magcd/ALL
+        }
+        {
+            :db/id                      #db/id[:db.part/user -3037]
+            :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+            :answerSet/answer           [#db/id[:db.part/user -3035]]
+             :system/demoOffer            :demoOffer/ABDY
+        }
+        {
+            :db/id                       #db/id[:db.part/user -3038]
+            :db/ident                   :form/birthdaySelfReport
+            :form/question               #db/id[:db.part/user -3036]
+            :form/sampleSpace            #db/id[:db.part/user -3037]
+        }
+
+       {
+        :db/id                     #db/id[:db.part/user -960131]
+        :question/type             :question/birthdaySelfReport
+        :constraint/dnfRule        #db/id[:db.part/user -8800211]
+        :report/demoType            "M"
+        :report/sourceType          "O"
+        }
+
+        ;; ------------------ CHILDREN BIRTHDAY --------------------
+
+        {
+            :db/id                      #db/id[:db.part/user -3041]
+            :question/type              :question/childBirthday
+            :answer/quantityType        "D"
+            :answer/displayName         "CHILD BIRTHDAY"
+        }
+
+        {
+            :db/id                      #db/id[:db.part/user -3042]
+            :question/type              :question/childBirthday
+            :question/demoCode          "POC"
+            :question/displayName       "When is your child's birthday?"
+            :question/createdBy         :magcd/ALL
+        }
+        {
+            :db/id                      #db/id[:db.part/user -3043]
+            :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+            :answerSet/answer           [#db/id[:db.part/user -3041]]
+            :system/demoOffer            :demoOffer/APOC
+        }
+        {
+            :db/id                       #db/id[:db.part/user -3044]
+            :db/ident                   :form/childBirthday
+            :form/question               #db/id[:db.part/user -3042]
+            :form/sampleSpace            #db/id[:db.part/user -3043]
+        }
+
+       {
+        :db/id                     #db/id[:db.part/user -960133]
+        :question/type             :question/childBirthday
+        :constraint/dnfRule        #db/id[:db.part/user -8800211]
+        :report/demoType            "M"
+        :report/sourceType          "L"
+        }
+
+     ;; -------------------- CAPMODEL ANSWER------------------------
+     {
+      :db/id                      #db/id[:db.part/user -1000112]
+      :question/type              :question/capModel
+      :question/demoCode          "MDL"
+      :question/displayName       "cap model score"
+      :question/createdBy         :magcd/ALL
+      }
+
+     {
+      :db/id                      #db/id[:db.part/user -1001212]
+      :question/type              :question/capModel
+      :answer/displayName         "cap model score"
+      :answer/quantityType        "S"
+      }
+
+     {
+      :db/id                      #db/id[:db.part/user -1005312]
+      :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+      :answerSet/answer           [#db/id[:db.part/user -1001212]]
+      :system/demoOffer            :demoOffer/AMDL
+      }
+     {
+      :db/id                       #db/id[:db.part/user -1006112]
+      :db/ident                    :form/capModel
+      :form/question               #db/id[:db.part/user -1000112]
+      :form/sampleSpace            #db/id[:db.part/user -1005312]
+      }
+
+     {
+      :db/id                     #db/id[:db.part/user -96013412]
+      :question/type             :question/capModel
+      :constraint/dnfRule        #db/id[:db.part/user -8800211]
+      :report/demoType            "M"
+      :report/sourceType          "L"
+      }
+
+
+     ;; -------------------- Renew Online Score------------------------
+     {
+    	:db/id                      #db/id[:db.part/user -10001129]
+    	:question/type              :question/renewOnlineScore
+    	:question/demoCode          "LNN"
+    	:question/displayName       "renew online score"
+    	:question/createdBy         :magcd/ALL
+    	}
+
+     {
+    	:db/id                      #db/id[:db.part/user -10012129]
+    	:question/type              :question/renewOnlineScore
+    	:answer/displayName         "renew online score"
+    	:answer/quantityType        "S"
+    	}
+
+     {
+    	:db/id                      #db/id[:db.part/user -10053129]
+    	:sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+    	:answerSet/answer           [#db/id[:db.part/user -10012129]]
+    	:system/demoOffer            :demoOffer/ALNN
+    	}
+     {
+    	:db/id                       #db/id[:db.part/user -10061129]
+    	:db/ident                    :form/renewOnlineScore
+    	:form/question               #db/id[:db.part/user -10001129]
+    	:form/sampleSpace            #db/id[:db.part/user -10053129]
+    	}
+
+     {
+    	:db/id                     #db/id[:db.part/user -960134129]
+    	:question/type             :question/renewOnlineScore
+    	:constraint/dnfRule        #db/id[:db.part/user -8800211]
+    	:report/demoType            "M"
+    	:report/sourceType          "L"
+    	}
+
+;; -------------------- Price Sensitivity Model ------------------------
+     {
+    	:db/id                      #db/id[:db.part/user -10001229]
+    	:question/type              :question/priceSensitivityModel
+    	:question/demoCode          "PSM"
+    	:question/displayName       "Price Sensitivity Model"
+    	:question/createdBy         :magcd/ALL
+    	}
+
+     {
+    	:db/id                      #db/id[:db.part/user -10012229]
+    	:question/type              :question/priceSensitivityModel
+    	:answer/displayName         "price sensitivity model"
+    	:answer/quantityType        "S"
+    	}
+
+     {
+    	:db/id                      #db/id[:db.part/user -10053329]
+    	:sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+    	:answerSet/answer           [#db/id[:db.part/user -10012229]]
+    	:system/demoOffer           :demoOffer/APSM
+    	}
+     {
+    	:db/id                       #db/id[:db.part/user -10061329]
+    	:db/ident                    :form/priceSensitivityModel
+    	:form/question               #db/id[:db.part/user -10001229]
+    	:form/sampleSpace            #db/id[:db.part/user -10053329]
+    	}
+
+     {
+    	:db/id                     #db/id[:db.part/user -960134429]
+    	:question/type             :question/priceSensitivityModel
+    	:constraint/dnfRule        #db/id[:db.part/user -8800211]
+    	:report/demoType            "M"
+    	:report/sourceType          "L"
+    	}
+
+]
+

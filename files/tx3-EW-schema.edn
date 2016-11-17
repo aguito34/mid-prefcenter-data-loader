@@ -1,0 +1,67 @@
+[
+
+    ;; favTVShow enum values
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/AG :db/doc "AGENTS OF S.H.I.E.L.D."]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/AH :db/doc "AMERICAN HORROR STORY"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/AW :db/doc "ARROW"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/BB :db/doc "BOB’S BURGERS"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/BN :db/doc "BROOKLYN NINE-NINE"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/DA :db/doc "DOWNTON ABBEY"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/DW :db/doc "DOCTOR WHO"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/GT :db/doc "GAME OF THRONES"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/HC :db/doc "HOUSE OF CARDS"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/LO :db/doc "LAW AND ORDER"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/OB :db/doc "ORPHAN BLACK"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/ON :db/doc "ORANGE IS THE NEW BLACK"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/OT :db/doc "ONCE UPON A TIME"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/SC :db/doc "SCANDAL"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/SH :db/doc "SLEEPY HOLLOW"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/SK :db/doc "SHERLOCK"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/TB :db/doc "THE BACHELOR"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/TV :db/doc "THE VOICE"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/WD :db/doc "THE WALKING DEAD"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveTvShow/Z :db/doc "OTHER"]
+
+    ;; favGenre enum values
+    [:db/add #db/id[:db.part/user] :db/ident :faveGenre/AN :db/doc "ANIMATION"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveGenre/CM :db/doc "COMEDY"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveGenre/CR :db/doc "CRIME"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveGenre/HR :db/doc "HORROR"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveGenre/RL :db/doc "REALITY"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveGenre/SD :db/doc "SERIAL DRAMA"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveGenre/SF :db/doc "SCI-FI/FANTASY"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveGenre/SH :db/doc "SUPERHEROES"]
+    [:db/add #db/id[:db.part/user] :db/ident :faveGenre/TN :db/doc "TEEN"]
+
+   ;;answer attribute
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/faveGenre
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Favorite Genre Answer."
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/faveTvShow
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Favorite Tv Show Answer."
+    :db.install/_attribute :db.part/db}
+
+    ;; question/type enum
+
+    ;; QUESTIONS WITH DEMO CHOICES
+    [:db/add #db/id[:db.part/user] :db/ident :question/faveGenre :db/doc "GNR question"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/faveTvShow :db/doc "TVS question"]
+
+
+    ;; :survey/demoOffer enum
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/AGNR :db/doc "GNR question demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/CGNR :db/doc "Superheroes fave genre question demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/MRVL :db/doc "Superheroes fave genre question demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/REAL :db/doc "Reality fave genre question demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/ATVS :db/doc "TVS question demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/GAME :db/doc "Game of Thrones fave tvs question demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/WALK :db/doc "Walking Dead fave tvs question demo offer code"]
+
+ ]

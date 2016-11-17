@@ -1,0 +1,228 @@
+[
+{ 
+:db/id #db/id[db.part/user -7] 
+:system/magcd :magcd/GF 
+:customer/acctid 37426
+:customer/email "andywoodford9@gmail.com" 
+}
+{ 
+:db/id #db/id[db.part/user -8] 
+:system/magcd :magcd/GF 
+:log/acctid 37426 
+:log/isCustomerInput true
+:question/type :question/golfHdcapScore 
+:originalTimeStamp #inst "2014-12-22T00:00:00Z" 
+:source "MADV" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AHC1 
+:answer/golfHdcapScore 14 
+:batchNumber "0013015" 
+}
+{ 
+:db/id #db/id[db.part/user -9] 
+:system/magcd :magcd/GF 
+:log/acctid 37426 
+:log/isCustomerInput true
+:question/type :question/golfImprovement 
+:originalTimeStamp #inst "2014-12-22T00:00:00Z" 
+:source "MADV" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AIM1 
+:answer/golfImprovement :golfImprovement/TWO 
+:batchNumber "0013015" 
+}
+
+{ 
+:db/id #db/id[db.part/user -10] 
+:system/magcd :magcd/GF 
+:customer/acctid 39513
+:customer/email "fredwells@nl.rogers.com" 
+}
+
+{ 
+:db/id #db/id[db.part/user -11] 
+:system/magcd :magcd/GF 
+:customer/acctid 40097
+:customer/email "randrews@attenheimerbaker.com" 
+}
+{ 
+:db/id #db/id[db.part/user -12] 
+:system/magcd :magcd/GF 
+:log/acctid 40097 
+:log/isCustomerInput false
+:question/type :question/challengeUSA 
+:originalTimeStamp #inst "2013-10-16T00:00:00Z" 
+:source "AQJT" 
+:sourceType "E" 
+:system/demoOffer :demoOffer/CHLG 
+:answer/unknown true 
+:batchNumber "0060136" 
+}
+
+{ 
+:db/id #db/id[db.part/user -13] 
+:system/magcd :magcd/GF 
+:customer/acctid 40511
+}
+
+{ 
+:db/id #db/id[db.part/user -14] 
+:system/magcd :magcd/GF 
+:customer/acctid 41246
+}
+
+{ 
+:db/id #db/id[db.part/user -15] 
+:system/magcd :magcd/GF 
+:customer/acctid 42237
+:customer/email "14672@nl.rogers.com" 
+}
+
+{ 
+:db/id #db/id[db.part/user -16] 
+:system/magcd :magcd/GF 
+:customer/acctid 47547
+:customer/email "jbenson@bensonbuffett.com" 
+}
+
+{ 
+:db/id #db/id[db.part/user -17] 
+:system/magcd :magcd/GF 
+:customer/acctid 51791
+}
+{ 
+:db/id #db/id[db.part/user -18] 
+:system/magcd :magcd/GF 
+:log/acctid 51791 
+:log/isCustomerInput false
+:question/type :question/challengeUSA 
+:originalTimeStamp #inst "2013-05-07T00:00:00Z" 
+:source "AQJT" 
+:sourceType "E" 
+:system/demoOffer :demoOffer/CHLG 
+:answer/unknown true 
+:batchNumber "0000149" 
+}
+
+{ 
+:db/id #db/id[db.part/user -19] 
+:system/magcd :magcd/GF 
+:customer/acctid 53038
+}
+
+{ 
+:db/id #db/id[db.part/user -20] 
+:system/magcd :magcd/GF 
+:customer/acctid 54660
+:customer/email "malfred.smith@hotmail.com" 
+}
+{ 
+:db/id #db/id[db.part/user -21] 
+:system/magcd :magcd/GF 
+:log/acctid 54660 
+:log/isCustomerInput false
+:question/type :question/challengeUSA 
+:originalTimeStamp #inst "2013-11-15T00:00:00Z" 
+:source "AQJT" 
+:sourceType "E" 
+:system/demoOffer :demoOffer/CHLG 
+:answer/unknown true 
+:batchNumber "0060329" 
+}
+
+{ 
+:db/id #db/id[db.part/user -22] 
+:system/magcd :magcd/GF 
+:customer/acctid 58279
+}
+
+{ 
+:db/id #db/id[db.part/user -23] 
+:system/magcd :magcd/GF 
+:customer/acctid 59972
+:customer/email "mdodd@rogersbussey.com" 
+}
+{ 
+:db/id #db/id[db.part/user -24] 
+:system/magcd :magcd/GF 
+:log/acctid 59972 
+:log/isCustomerInput false
+:question/type :question/challengeUSA 
+:originalTimeStamp #inst "2014-04-15T00:00:00Z" 
+:source "AQJU" 
+:sourceType "E" 
+:system/demoOffer :demoOffer/CHLG 
+:answer/unknown true 
+:batchNumber "0060141" 
+}
+
+{ 
+:db/id #db/id[db.part/user -25] 
+:system/magcd :magcd/GF 
+:customer/acctid 62145
+}
+
+{ 
+:db/id #db/id[db.part/user -26] 
+:system/magcd :magcd/GF 
+:customer/acctid 65760
+:customer/email "dougkendrick21@gmail.com" 
+}
+
+{ 
+:db/id #db/id[db.part/user -27] 
+:system/magcd :magcd/GF 
+:customer/acctid 66086
+:customer/email "jonathansnow@mac.com" 
+}
+
+{ 
+:db/id #db/id[db.part/user -28] 
+:system/magcd :magcd/GF 
+:customer/acctid 69111
+}
+
+{ 
+:db/id #db/id[db.part/user -29] 
+:system/magcd :magcd/GF 
+:customer/acctid 76123
+}
+
+{ 
+:db/id #db/id[db.part/user -30] 
+:system/magcd :magcd/GF 
+:customer/acctid 76571
+}
+
+{ 
+:db/id #db/id[db.part/user -31] 
+:system/magcd :magcd/GF 
+:customer/acctid 81143
+}
+
+{ 
+:db/id #db/id[db.part/user -32] 
+:system/magcd :magcd/GF 
+:customer/acctid 94858
+:customer/email "jennwhite4@gmail.com" 
+}
+
+{ 
+:db/id #db/id[db.part/user -33] 
+:system/magcd :magcd/GF 
+:customer/acctid 96682
+}
+
+{ 
+:db/id #db/id[db.part/user -34] 
+:system/magcd :magcd/GF 
+:customer/acctid 98892
+:customer/email "uis1234@gmail.com" 
+}
+
+{ 
+:db/id #db/id[db.part/user -35] 
+:system/magcd :magcd/GF 
+:customer/acctid 104690
+}
+]

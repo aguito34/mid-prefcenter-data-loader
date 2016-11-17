@@ -1,0 +1,5813 @@
+[
+{ 
+:db/id #db/id[db.part/user -2] 
+:system/magcd :magcd/GF 
+:log/acctid 0 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2012-08-07T23:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 188 
+:batchNumber "0076004" 
+}
+{ 
+:db/id #db/id[db.part/user -3] 
+:system/magcd :magcd/GF 
+:log/acctid 0 
+:log/isCustomerInput false
+:question/type :question/childBirthday 
+:originalTimeStamp #inst "2012-08-07T23:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APOC 
+:answer/childBirthday #inst "1999-06-29T23:00:00Z" 
+:batchNumber "0076004" 
+}
+
+{ 
+:db/id #db/id[db.part/user -5] 
+:system/magcd :magcd/GF 
+:log/acctid 597 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -6] 
+:system/magcd :magcd/GF 
+:log/acctid 597 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -8] 
+:system/magcd :magcd/GF 
+:log/acctid 6584 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -9] 
+:system/magcd :magcd/GF 
+:log/acctid 6584 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -11] 
+:system/magcd :magcd/GF 
+:log/acctid 76051672 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -12] 
+:system/magcd :magcd/GF 
+:log/acctid 76051672 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -14] 
+:system/magcd :magcd/GF 
+:log/acctid 76051672 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -15] 
+:system/magcd :magcd/GF 
+:log/acctid 76051672 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -17] 
+:system/magcd :magcd/GF 
+:log/acctid 76051672 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -18] 
+:system/magcd :magcd/GF 
+:log/acctid 76051672 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -20] 
+:system/magcd :magcd/GF 
+:log/acctid 98327104672 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -22] 
+:system/magcd :magcd/GF 
+:log/acctid 98327104672 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -24] 
+:system/magcd :magcd/GF 
+:log/acctid 98327104 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -25] 
+:system/magcd :magcd/GF 
+:log/acctid 98327104 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -27] 
+:system/magcd :magcd/GF 
+:log/acctid 98327104 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -28] 
+:system/magcd :magcd/GF 
+:log/acctid 98327104 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -30] 
+:system/magcd :magcd/GF 
+:log/acctid 42237 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -32] 
+:system/magcd :magcd/GF 
+:log/acctid 47547 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -33] 
+:system/magcd :magcd/GF 
+:log/acctid 47547 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -35] 
+:system/magcd :magcd/GF 
+:log/acctid 53038 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -36] 
+:system/magcd :magcd/GF 
+:log/acctid 53038 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -38] 
+:system/magcd :magcd/GF 
+:log/acctid 58279 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -40] 
+:system/magcd :magcd/GF 
+:log/acctid 59972 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -41] 
+:system/magcd :magcd/GF 
+:log/acctid 59972 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -43] 
+:system/magcd :magcd/GF 
+:log/acctid 62145 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -44] 
+:system/magcd :magcd/GF 
+:log/acctid 62145 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -46] 
+:system/magcd :magcd/GF 
+:log/acctid 65760 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -47] 
+:system/magcd :magcd/GF 
+:log/acctid 65760 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -49] 
+:system/magcd :magcd/GF 
+:log/acctid 66086 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -50] 
+:system/magcd :magcd/GF 
+:log/acctid 66086 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -52] 
+:system/magcd :magcd/GF 
+:log/acctid 69111 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -53] 
+:system/magcd :magcd/GF 
+:log/acctid 69111 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -55] 
+:system/magcd :magcd/GF 
+:log/acctid 76123 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -56] 
+:system/magcd :magcd/GF 
+:log/acctid 76123 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -58] 
+:system/magcd :magcd/GF 
+:log/acctid 76571 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -59] 
+:system/magcd :magcd/GF 
+:log/acctid 76571 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -61] 
+:system/magcd :magcd/GF 
+:log/acctid 81143 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -62] 
+:system/magcd :magcd/GF 
+:log/acctid 81143 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -64] 
+:system/magcd :magcd/GF 
+:log/acctid 94858 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -65] 
+:system/magcd :magcd/GF 
+:log/acctid 94858 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -67] 
+:system/magcd :magcd/GF 
+:log/acctid 96682 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -68] 
+:system/magcd :magcd/GF 
+:log/acctid 96682 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -70] 
+:system/magcd :magcd/GF 
+:log/acctid 98892 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -71] 
+:system/magcd :magcd/GF 
+:log/acctid 98892 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -73] 
+:system/magcd :magcd/GF 
+:log/acctid 104690 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -74] 
+:system/magcd :magcd/GF 
+:log/acctid 104690 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -76] 
+:system/magcd :magcd/GF 
+:log/acctid 112864 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -77] 
+:system/magcd :magcd/GF 
+:log/acctid 112864 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -79] 
+:system/magcd :magcd/GF 
+:log/acctid 113590 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 9 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -80] 
+:system/magcd :magcd/GF 
+:log/acctid 113590 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -82] 
+:system/magcd :magcd/GF 
+:log/acctid 115993 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -83] 
+:system/magcd :magcd/GF 
+:log/acctid 115993 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -85] 
+:system/magcd :magcd/GF 
+:log/acctid 116707 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -86] 
+:system/magcd :magcd/GF 
+:log/acctid 116707 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -88] 
+:system/magcd :magcd/GF 
+:log/acctid 117060 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -90] 
+:system/magcd :magcd/GF 
+:log/acctid 119181 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -91] 
+:system/magcd :magcd/GF 
+:log/acctid 119181 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -93] 
+:system/magcd :magcd/GF 
+:log/acctid 122777 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -94] 
+:system/magcd :magcd/GF 
+:log/acctid 122777 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -96] 
+:system/magcd :magcd/GF 
+:log/acctid 126105 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -97] 
+:system/magcd :magcd/GF 
+:log/acctid 126105 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -99] 
+:system/magcd :magcd/GF 
+:log/acctid 127177 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -100] 
+:system/magcd :magcd/GF 
+:log/acctid 127177 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -102] 
+:system/magcd :magcd/GF 
+:log/acctid 129076 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -103] 
+:system/magcd :magcd/GF 
+:log/acctid 129076 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -105] 
+:system/magcd :magcd/GF 
+:log/acctid 129201 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -106] 
+:system/magcd :magcd/GF 
+:log/acctid 129201 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -108] 
+:system/magcd :magcd/GF 
+:log/acctid 132675 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -110] 
+:system/magcd :magcd/GF 
+:log/acctid 134950 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -111] 
+:system/magcd :magcd/GF 
+:log/acctid 134950 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -113] 
+:system/magcd :magcd/GF 
+:log/acctid 136097 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -114] 
+:system/magcd :magcd/GF 
+:log/acctid 136097 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -116] 
+:system/magcd :magcd/GF 
+:log/acctid 144795 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -117] 
+:system/magcd :magcd/GF 
+:log/acctid 144795 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -119] 
+:system/magcd :magcd/GF 
+:log/acctid 146390 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -120] 
+:system/magcd :magcd/GF 
+:log/acctid 146390 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -122] 
+:system/magcd :magcd/GF 
+:log/acctid 146408 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -123] 
+:system/magcd :magcd/GF 
+:log/acctid 146408 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -125] 
+:system/magcd :magcd/GF 
+:log/acctid 147278 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -126] 
+:system/magcd :magcd/GF 
+:log/acctid 147278 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -128] 
+:system/magcd :magcd/GF 
+:log/acctid 148260 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -130] 
+:system/magcd :magcd/GF 
+:log/acctid 151119 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -131] 
+:system/magcd :magcd/GF 
+:log/acctid 151119 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -133] 
+:system/magcd :magcd/GF 
+:log/acctid 152133 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -134] 
+:system/magcd :magcd/GF 
+:log/acctid 152133 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -136] 
+:system/magcd :magcd/GF 
+:log/acctid 152253 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -137] 
+:system/magcd :magcd/GF 
+:log/acctid 152253 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -139] 
+:system/magcd :magcd/GF 
+:log/acctid 157638 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -140] 
+:system/magcd :magcd/GF 
+:log/acctid 157638 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -142] 
+:system/magcd :magcd/GF 
+:log/acctid 161903 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -143] 
+:system/magcd :magcd/GF 
+:log/acctid 161903 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -144] 
+:system/magcd :magcd/GF 
+:log/acctid 161903 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2015-03-24T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -146] 
+:system/magcd :magcd/GF 
+:log/acctid 162089 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -147] 
+:system/magcd :magcd/GF 
+:log/acctid 162089 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -149] 
+:system/magcd :magcd/GF 
+:log/acctid 163734 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -151] 
+:system/magcd :magcd/GF 
+:log/acctid 163874 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -152] 
+:system/magcd :magcd/GF 
+:log/acctid 163874 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 1 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -154] 
+:system/magcd :magcd/GF 
+:log/acctid 164339 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -155] 
+:system/magcd :magcd/GF 
+:log/acctid 164339 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -157] 
+:system/magcd :magcd/GF 
+:log/acctid 172538 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -158] 
+:system/magcd :magcd/GF 
+:log/acctid 172538 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -160] 
+:system/magcd :magcd/GF 
+:log/acctid 174277 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -161] 
+:system/magcd :magcd/GF 
+:log/acctid 174277 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -163] 
+:system/magcd :magcd/GF 
+:log/acctid 174492 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 8 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -164] 
+:system/magcd :magcd/GF 
+:log/acctid 174492 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -166] 
+:system/magcd :magcd/GF 
+:log/acctid 174767 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -167] 
+:system/magcd :magcd/GF 
+:log/acctid 174767 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -169] 
+:system/magcd :magcd/GF 
+:log/acctid 176726 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -170] 
+:system/magcd :magcd/GF 
+:log/acctid 176726 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -172] 
+:system/magcd :magcd/GF 
+:log/acctid 176892 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -174] 
+:system/magcd :magcd/GF 
+:log/acctid 181430 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -175] 
+:system/magcd :magcd/GF 
+:log/acctid 181430 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -177] 
+:system/magcd :magcd/GF 
+:log/acctid 181496 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -178] 
+:system/magcd :magcd/GF 
+:log/acctid 181496 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -180] 
+:system/magcd :magcd/GF 
+:log/acctid 184053 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -181] 
+:system/magcd :magcd/GF 
+:log/acctid 184053 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -183] 
+:system/magcd :magcd/GF 
+:log/acctid 186494 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -184] 
+:system/magcd :magcd/GF 
+:log/acctid 186494 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -186] 
+:system/magcd :magcd/GF 
+:log/acctid 186793 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -187] 
+:system/magcd :magcd/GF 
+:log/acctid 186793 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -189] 
+:system/magcd :magcd/GF 
+:log/acctid 187692 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -190] 
+:system/magcd :magcd/GF 
+:log/acctid 187692 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -192] 
+:system/magcd :magcd/GF 
+:log/acctid 189009 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -193] 
+:system/magcd :magcd/GF 
+:log/acctid 189009 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -195] 
+:system/magcd :magcd/GF 
+:log/acctid 189053 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -196] 
+:system/magcd :magcd/GF 
+:log/acctid 189053 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -198] 
+:system/magcd :magcd/GF 
+:log/acctid 192223 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -199] 
+:system/magcd :magcd/GF 
+:log/acctid 192223 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -201] 
+:system/magcd :magcd/GF 
+:log/acctid 192990 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -202] 
+:system/magcd :magcd/GF 
+:log/acctid 192990 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -204] 
+:system/magcd :magcd/GF 
+:log/acctid 193053 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -205] 
+:system/magcd :magcd/GF 
+:log/acctid 193053 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -207] 
+:system/magcd :magcd/GF 
+:log/acctid 193453 
+:log/isCustomerInput false
+:question/type :question/affluentEditionCorpDb 
+:originalTimeStamp #inst "2016-08-28T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AFFL 
+:answer/affluentEditionCorpDb 7 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -208] 
+:system/magcd :magcd/GF 
+:log/acctid 193453 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2015-04-07T23:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 71 
+:batchNumber "0076004" 
+}
+{ 
+:db/id #db/id[db.part/user -209] 
+:system/magcd :magcd/GF 
+:log/acctid 193453 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2015-03-24T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/EIGHT 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -211] 
+:system/magcd :magcd/GF 
+:log/acctid 193794 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -212] 
+:system/magcd :magcd/GF 
+:log/acctid 193794 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -214] 
+:system/magcd :magcd/GF 
+:log/acctid 194076 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -215] 
+:system/magcd :magcd/GF 
+:log/acctid 194076 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -217] 
+:system/magcd :magcd/GF 
+:log/acctid 194114 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -218] 
+:system/magcd :magcd/GF 
+:log/acctid 194114 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -220] 
+:system/magcd :magcd/GF 
+:log/acctid 194668 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 5 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -221] 
+:system/magcd :magcd/GF 
+:log/acctid 194668 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -223] 
+:system/magcd :magcd/GF 
+:log/acctid 195135 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -224] 
+:system/magcd :magcd/GF 
+:log/acctid 195135 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -226] 
+:system/magcd :magcd/GF 
+:log/acctid 196484 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -228] 
+:system/magcd :magcd/GF 
+:log/acctid 197883 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -229] 
+:system/magcd :magcd/GF 
+:log/acctid 197883 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -231] 
+:system/magcd :magcd/GF 
+:log/acctid 203096 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -232] 
+:system/magcd :magcd/GF 
+:log/acctid 203096 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -234] 
+:system/magcd :magcd/GF 
+:log/acctid 209890 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -235] 
+:system/magcd :magcd/GF 
+:log/acctid 209890 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -237] 
+:system/magcd :magcd/GF 
+:log/acctid 213101 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -238] 
+:system/magcd :magcd/GF 
+:log/acctid 213101 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -240] 
+:system/magcd :magcd/GF 
+:log/acctid 214744 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -241] 
+:system/magcd :magcd/GF 
+:log/acctid 214744 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -243] 
+:system/magcd :magcd/GF 
+:log/acctid 216214 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -244] 
+:system/magcd :magcd/GF 
+:log/acctid 216214 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -246] 
+:system/magcd :magcd/GF 
+:log/acctid 217806 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -247] 
+:system/magcd :magcd/GF 
+:log/acctid 217806 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -249] 
+:system/magcd :magcd/GF 
+:log/acctid 218238 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -250] 
+:system/magcd :magcd/GF 
+:log/acctid 218238 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -252] 
+:system/magcd :magcd/GF 
+:log/acctid 220469 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -253] 
+:system/magcd :magcd/GF 
+:log/acctid 220469 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -255] 
+:system/magcd :magcd/GF 
+:log/acctid 222297 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -256] 
+:system/magcd :magcd/GF 
+:log/acctid 222297 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -258] 
+:system/magcd :magcd/GF 
+:log/acctid 222729 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -259] 
+:system/magcd :magcd/GF 
+:log/acctid 222729 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -261] 
+:system/magcd :magcd/GF 
+:log/acctid 249865 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 7 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -262] 
+:system/magcd :magcd/GF 
+:log/acctid 249865 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -264] 
+:system/magcd :magcd/GF 
+:log/acctid 262770 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -265] 
+:system/magcd :magcd/GF 
+:log/acctid 262770 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -267] 
+:system/magcd :magcd/GF 
+:log/acctid 263088 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -268] 
+:system/magcd :magcd/GF 
+:log/acctid 263088 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -270] 
+:system/magcd :magcd/GF 
+:log/acctid 264834 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -271] 
+:system/magcd :magcd/GF 
+:log/acctid 264834 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -273] 
+:system/magcd :magcd/GF 
+:log/acctid 265112 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -274] 
+:system/magcd :magcd/GF 
+:log/acctid 265112 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -276] 
+:system/magcd :magcd/GF 
+:log/acctid 265547 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -277] 
+:system/magcd :magcd/GF 
+:log/acctid 265547 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -279] 
+:system/magcd :magcd/GF 
+:log/acctid 266173 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -280] 
+:system/magcd :magcd/GF 
+:log/acctid 266173 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -282] 
+:system/magcd :magcd/GF 
+:log/acctid 266316 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -283] 
+:system/magcd :magcd/GF 
+:log/acctid 266316 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -285] 
+:system/magcd :magcd/GF 
+:log/acctid 267563 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -286] 
+:system/magcd :magcd/GF 
+:log/acctid 267563 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -288] 
+:system/magcd :magcd/GF 
+:log/acctid 275681 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -289] 
+:system/magcd :magcd/GF 
+:log/acctid 275681 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -291] 
+:system/magcd :magcd/GF 
+:log/acctid 275683 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -292] 
+:system/magcd :magcd/GF 
+:log/acctid 275683 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -294] 
+:system/magcd :magcd/GF 
+:log/acctid 276763 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -295] 
+:system/magcd :magcd/GF 
+:log/acctid 276763 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -297] 
+:system/magcd :magcd/GF 
+:log/acctid 282227 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -298] 
+:system/magcd :magcd/GF 
+:log/acctid 282227 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -300] 
+:system/magcd :magcd/GF 
+:log/acctid 282574 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -301] 
+:system/magcd :magcd/GF 
+:log/acctid 282574 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -303] 
+:system/magcd :magcd/GF 
+:log/acctid 283328 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -304] 
+:system/magcd :magcd/GF 
+:log/acctid 283328 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -306] 
+:system/magcd :magcd/GF 
+:log/acctid 284566 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -307] 
+:system/magcd :magcd/GF 
+:log/acctid 284566 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -309] 
+:system/magcd :magcd/GF 
+:log/acctid 285020 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -311] 
+:system/magcd :magcd/GF 
+:log/acctid 297110 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -312] 
+:system/magcd :magcd/GF 
+:log/acctid 297110 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -314] 
+:system/magcd :magcd/GF 
+:log/acctid 297950 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -315] 
+:system/magcd :magcd/GF 
+:log/acctid 297950 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -317] 
+:system/magcd :magcd/GF 
+:log/acctid 300831 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -318] 
+:system/magcd :magcd/GF 
+:log/acctid 300831 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -320] 
+:system/magcd :magcd/GF 
+:log/acctid 301024 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -321] 
+:system/magcd :magcd/GF 
+:log/acctid 301024 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -323] 
+:system/magcd :magcd/GF 
+:log/acctid 301981 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -324] 
+:system/magcd :magcd/GF 
+:log/acctid 301981 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -326] 
+:system/magcd :magcd/GF 
+:log/acctid 308483 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -327] 
+:system/magcd :magcd/GF 
+:log/acctid 308483 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -329] 
+:system/magcd :magcd/GF 
+:log/acctid 313277 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -330] 
+:system/magcd :magcd/GF 
+:log/acctid 313277 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -332] 
+:system/magcd :magcd/GF 
+:log/acctid 313622 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -333] 
+:system/magcd :magcd/GF 
+:log/acctid 313622 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -335] 
+:system/magcd :magcd/GF 
+:log/acctid 314467 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -336] 
+:system/magcd :magcd/GF 
+:log/acctid 314467 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -338] 
+:system/magcd :magcd/GF 
+:log/acctid 314870 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -339] 
+:system/magcd :magcd/GF 
+:log/acctid 314870 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -341] 
+:system/magcd :magcd/GF 
+:log/acctid 315964 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -342] 
+:system/magcd :magcd/GF 
+:log/acctid 315964 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -344] 
+:system/magcd :magcd/GF 
+:log/acctid 318602 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -345] 
+:system/magcd :magcd/GF 
+:log/acctid 318602 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -347] 
+:system/magcd :magcd/GF 
+:log/acctid 333040 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 5 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -348] 
+:system/magcd :magcd/GF 
+:log/acctid 333040 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -350] 
+:system/magcd :magcd/GF 
+:log/acctid 334265 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -352] 
+:system/magcd :magcd/GF 
+:log/acctid 342836 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 9 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -353] 
+:system/magcd :magcd/GF 
+:log/acctid 342836 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -355] 
+:system/magcd :magcd/GF 
+:log/acctid 343607 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -356] 
+:system/magcd :magcd/GF 
+:log/acctid 343607 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -358] 
+:system/magcd :magcd/GF 
+:log/acctid 343709 
+:log/isCustomerInput false
+:question/type :question/affluentEditionCorpDb 
+:originalTimeStamp #inst "2013-06-18T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AFFL 
+:answer/affluentEditionCorpDb 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -359] 
+:system/magcd :magcd/GF 
+:log/acctid 343709 
+:log/isCustomerInput false
+:question/type :question/capModel 
+:originalTimeStamp #inst "2015-03-18T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AMDL 
+:answer/capModel 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -360] 
+:system/magcd :magcd/GF 
+:log/acctid 343709 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2015-05-27T23:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -362] 
+:system/magcd :magcd/GF 
+:log/acctid 343741 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -363] 
+:system/magcd :magcd/GF 
+:log/acctid 343741 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -365] 
+:system/magcd :magcd/GF 
+:log/acctid 346699 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -366] 
+:system/magcd :magcd/GF 
+:log/acctid 346699 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -368] 
+:system/magcd :magcd/GF 
+:log/acctid 348259 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2016-03-03T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -370] 
+:system/magcd :magcd/GF 
+:log/acctid 348503 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -371] 
+:system/magcd :magcd/GF 
+:log/acctid 348503 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -373] 
+:system/magcd :magcd/GF 
+:log/acctid 350099 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -374] 
+:system/magcd :magcd/GF 
+:log/acctid 350099 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -376] 
+:system/magcd :magcd/GF 
+:log/acctid 351645 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -377] 
+:system/magcd :magcd/GF 
+:log/acctid 351645 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -379] 
+:system/magcd :magcd/GF 
+:log/acctid 351924 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 6 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -380] 
+:system/magcd :magcd/GF 
+:log/acctid 351924 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -382] 
+:system/magcd :magcd/GF 
+:log/acctid 352621 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -383] 
+:system/magcd :magcd/GF 
+:log/acctid 352621 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -385] 
+:system/magcd :magcd/GF 
+:log/acctid 352925 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -386] 
+:system/magcd :magcd/GF 
+:log/acctid 352925 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 1 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -388] 
+:system/magcd :magcd/GF 
+:log/acctid 353336 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -390] 
+:system/magcd :magcd/GF 
+:log/acctid 355013 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -391] 
+:system/magcd :magcd/GF 
+:log/acctid 355013 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -393] 
+:system/magcd :magcd/GF 
+:log/acctid 364584 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -394] 
+:system/magcd :magcd/GF 
+:log/acctid 364584 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -396] 
+:system/magcd :magcd/GF 
+:log/acctid 367742 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -398] 
+:system/magcd :magcd/GF 
+:log/acctid 375645 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -399] 
+:system/magcd :magcd/GF 
+:log/acctid 375645 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -401] 
+:system/magcd :magcd/GF 
+:log/acctid 376872 
+:log/isCustomerInput false
+:question/type :question/affluentEditionCorpDb 
+:originalTimeStamp #inst "2015-01-23T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AFFL 
+:answer/affluentEditionCorpDb 5 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -402] 
+:system/magcd :magcd/GF 
+:log/acctid 376872 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2015-12-03T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -404] 
+:system/magcd :magcd/GF 
+:log/acctid 377483 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -405] 
+:system/magcd :magcd/GF 
+:log/acctid 377483 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -407] 
+:system/magcd :magcd/GF 
+:log/acctid 382239 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -408] 
+:system/magcd :magcd/GF 
+:log/acctid 382239 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -410] 
+:system/magcd :magcd/GF 
+:log/acctid 436196 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -411] 
+:system/magcd :magcd/GF 
+:log/acctid 436196 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -413] 
+:system/magcd :magcd/GF 
+:log/acctid 448829 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -414] 
+:system/magcd :magcd/GF 
+:log/acctid 448829 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -416] 
+:system/magcd :magcd/GF 
+:log/acctid 449515 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -417] 
+:system/magcd :magcd/GF 
+:log/acctid 449515 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -419] 
+:system/magcd :magcd/GF 
+:log/acctid 453147 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -420] 
+:system/magcd :magcd/GF 
+:log/acctid 453147 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -422] 
+:system/magcd :magcd/GF 
+:log/acctid 454983 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -423] 
+:system/magcd :magcd/GF 
+:log/acctid 454983 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -425] 
+:system/magcd :magcd/GF 
+:log/acctid 456416 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -426] 
+:system/magcd :magcd/GF 
+:log/acctid 456416 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -428] 
+:system/magcd :magcd/GF 
+:log/acctid 467639 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -429] 
+:system/magcd :magcd/GF 
+:log/acctid 467639 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -431] 
+:system/magcd :magcd/GF 
+:log/acctid 469056 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -432] 
+:system/magcd :magcd/GF 
+:log/acctid 469056 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -434] 
+:system/magcd :magcd/GF 
+:log/acctid 469674 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -435] 
+:system/magcd :magcd/GF 
+:log/acctid 469674 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -437] 
+:system/magcd :magcd/GF 
+:log/acctid 471845 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 5 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -439] 
+:system/magcd :magcd/GF 
+:log/acctid 473419 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -440] 
+:system/magcd :magcd/GF 
+:log/acctid 473419 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -442] 
+:system/magcd :magcd/GF 
+:log/acctid 474710 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -443] 
+:system/magcd :magcd/GF 
+:log/acctid 474710 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -445] 
+:system/magcd :magcd/GF 
+:log/acctid 476268 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -446] 
+:system/magcd :magcd/GF 
+:log/acctid 476268 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -448] 
+:system/magcd :magcd/GF 
+:log/acctid 478469 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -449] 
+:system/magcd :magcd/GF 
+:log/acctid 478469 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -451] 
+:system/magcd :magcd/GF 
+:log/acctid 479282 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -452] 
+:system/magcd :magcd/GF 
+:log/acctid 479282 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -454] 
+:system/magcd :magcd/GF 
+:log/acctid 479394 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -455] 
+:system/magcd :magcd/GF 
+:log/acctid 479394 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -457] 
+:system/magcd :magcd/GF 
+:log/acctid 480389 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 6 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -458] 
+:system/magcd :magcd/GF 
+:log/acctid 480389 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 1 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -460] 
+:system/magcd :magcd/GF 
+:log/acctid 483806 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -461] 
+:system/magcd :magcd/GF 
+:log/acctid 483806 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -463] 
+:system/magcd :magcd/GF 
+:log/acctid 485839 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2012-10-07T23:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 138 
+:batchNumber "0076004" 
+}
+{ 
+:db/id #db/id[db.part/user -464] 
+:system/magcd :magcd/GF 
+:log/acctid 485839 
+:log/isCustomerInput false
+:question/type :question/capModel 
+:originalTimeStamp #inst "2012-12-03T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AMDL 
+:answer/capModel 10 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -465] 
+:system/magcd :magcd/GF 
+:log/acctid 485839 
+:log/isCustomerInput false
+:question/type :question/childBirthday 
+:originalTimeStamp #inst "2012-10-07T23:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APOC 
+:answer/childBirthday #inst "1996-06-29T23:00:00Z" 
+:batchNumber "0076004" 
+}
+
+{ 
+:db/id #db/id[db.part/user -467] 
+:system/magcd :magcd/GF 
+:log/acctid 513027 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -468] 
+:system/magcd :magcd/GF 
+:log/acctid 513027 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -470] 
+:system/magcd :magcd/GF 
+:log/acctid 513326 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -471] 
+:system/magcd :magcd/GF 
+:log/acctid 513326 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -473] 
+:system/magcd :magcd/GF 
+:log/acctid 520965 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -475] 
+:system/magcd :magcd/GF 
+:log/acctid 521165 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -476] 
+:system/magcd :magcd/GF 
+:log/acctid 521165 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -478] 
+:system/magcd :magcd/GF 
+:log/acctid 521615 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -479] 
+:system/magcd :magcd/GF 
+:log/acctid 521615 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -481] 
+:system/magcd :magcd/GF 
+:log/acctid 527190 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -482] 
+:system/magcd :magcd/GF 
+:log/acctid 527190 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -484] 
+:system/magcd :magcd/GF 
+:log/acctid 527848 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -485] 
+:system/magcd :magcd/GF 
+:log/acctid 527848 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -487] 
+:system/magcd :magcd/GF 
+:log/acctid 538266 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -488] 
+:system/magcd :magcd/GF 
+:log/acctid 538266 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -490] 
+:system/magcd :magcd/GF 
+:log/acctid 542367 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -491] 
+:system/magcd :magcd/GF 
+:log/acctid 542367 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -493] 
+:system/magcd :magcd/GF 
+:log/acctid 543244 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -494] 
+:system/magcd :magcd/GF 
+:log/acctid 543244 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -496] 
+:system/magcd :magcd/GF 
+:log/acctid 549480 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -497] 
+:system/magcd :magcd/GF 
+:log/acctid 549480 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -499] 
+:system/magcd :magcd/GF 
+:log/acctid 549529 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -500] 
+:system/magcd :magcd/GF 
+:log/acctid 549529 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -502] 
+:system/magcd :magcd/GF 
+:log/acctid 552785 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -503] 
+:system/magcd :magcd/GF 
+:log/acctid 552785 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -505] 
+:system/magcd :magcd/GF 
+:log/acctid 557074 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -506] 
+:system/magcd :magcd/GF 
+:log/acctid 557074 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -508] 
+:system/magcd :magcd/GF 
+:log/acctid 557994 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -509] 
+:system/magcd :magcd/GF 
+:log/acctid 557994 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -511] 
+:system/magcd :magcd/GF 
+:log/acctid 558957 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -512] 
+:system/magcd :magcd/GF 
+:log/acctid 558957 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -514] 
+:system/magcd :magcd/GF 
+:log/acctid 559321 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -515] 
+:system/magcd :magcd/GF 
+:log/acctid 559321 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -517] 
+:system/magcd :magcd/GF 
+:log/acctid 560839 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -518] 
+:system/magcd :magcd/GF 
+:log/acctid 560839 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -520] 
+:system/magcd :magcd/GF 
+:log/acctid 561033 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -521] 
+:system/magcd :magcd/GF 
+:log/acctid 561033 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -523] 
+:system/magcd :magcd/GF 
+:log/acctid 563638 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -524] 
+:system/magcd :magcd/GF 
+:log/acctid 563638 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -526] 
+:system/magcd :magcd/GF 
+:log/acctid 563676 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -527] 
+:system/magcd :magcd/GF 
+:log/acctid 563676 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -529] 
+:system/magcd :magcd/GF 
+:log/acctid 563988 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -530] 
+:system/magcd :magcd/GF 
+:log/acctid 563988 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -532] 
+:system/magcd :magcd/GF 
+:log/acctid 564757 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -533] 
+:system/magcd :magcd/GF 
+:log/acctid 564757 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -535] 
+:system/magcd :magcd/GF 
+:log/acctid 565159 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -536] 
+:system/magcd :magcd/GF 
+:log/acctid 565159 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -538] 
+:system/magcd :magcd/GF 
+:log/acctid 567433 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -539] 
+:system/magcd :magcd/GF 
+:log/acctid 567433 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -541] 
+:system/magcd :magcd/GF 
+:log/acctid 567475 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -542] 
+:system/magcd :magcd/GF 
+:log/acctid 567475 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -544] 
+:system/magcd :magcd/GF 
+:log/acctid 568016 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -545] 
+:system/magcd :magcd/GF 
+:log/acctid 568016 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -547] 
+:system/magcd :magcd/GF 
+:log/acctid 568333 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -548] 
+:system/magcd :magcd/GF 
+:log/acctid 568333 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -550] 
+:system/magcd :magcd/GF 
+:log/acctid 568698 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -551] 
+:system/magcd :magcd/GF 
+:log/acctid 568698 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -553] 
+:system/magcd :magcd/GF 
+:log/acctid 570333 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -554] 
+:system/magcd :magcd/GF 
+:log/acctid 570333 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -556] 
+:system/magcd :magcd/GF 
+:log/acctid 574149 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -558] 
+:system/magcd :magcd/GF 
+:log/acctid 577701 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -560] 
+:system/magcd :magcd/GF 
+:log/acctid 578643 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -561] 
+:system/magcd :magcd/GF 
+:log/acctid 578643 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 1 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -563] 
+:system/magcd :magcd/GF 
+:log/acctid 580113 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -564] 
+:system/magcd :magcd/GF 
+:log/acctid 580113 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -566] 
+:system/magcd :magcd/GF 
+:log/acctid 580943 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -567] 
+:system/magcd :magcd/GF 
+:log/acctid 580943 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -569] 
+:system/magcd :magcd/GF 
+:log/acctid 581309 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -570] 
+:system/magcd :magcd/GF 
+:log/acctid 581309 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -572] 
+:system/magcd :magcd/GF 
+:log/acctid 584675 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -573] 
+:system/magcd :magcd/GF 
+:log/acctid 584675 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -575] 
+:system/magcd :magcd/GF 
+:log/acctid 591505 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -576] 
+:system/magcd :magcd/GF 
+:log/acctid 591505 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -578] 
+:system/magcd :magcd/GF 
+:log/acctid 591812 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -579] 
+:system/magcd :magcd/GF 
+:log/acctid 591812 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -581] 
+:system/magcd :magcd/GF 
+:log/acctid 596357 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -582] 
+:system/magcd :magcd/GF 
+:log/acctid 596357 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -584] 
+:system/magcd :magcd/GF 
+:log/acctid 603366 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -585] 
+:system/magcd :magcd/GF 
+:log/acctid 603366 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -587] 
+:system/magcd :magcd/GF 
+:log/acctid 614658 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -588] 
+:system/magcd :magcd/GF 
+:log/acctid 614658 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -590] 
+:system/magcd :magcd/GF 
+:log/acctid 619886 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -591] 
+:system/magcd :magcd/GF 
+:log/acctid 619886 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -593] 
+:system/magcd :magcd/GF 
+:log/acctid 621192 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -594] 
+:system/magcd :magcd/GF 
+:log/acctid 621192 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -596] 
+:system/magcd :magcd/GF 
+:log/acctid 626230 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -598] 
+:system/magcd :magcd/GF 
+:log/acctid 627761 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -599] 
+:system/magcd :magcd/GF 
+:log/acctid 627761 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -601] 
+:system/magcd :magcd/GF 
+:log/acctid 633921 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -602] 
+:system/magcd :magcd/GF 
+:log/acctid 633921 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -604] 
+:system/magcd :magcd/GF 
+:log/acctid 635006 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 5 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -605] 
+:system/magcd :magcd/GF 
+:log/acctid 635006 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -607] 
+:system/magcd :magcd/GF 
+:log/acctid 636580 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -609] 
+:system/magcd :magcd/GF 
+:log/acctid 636652 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -610] 
+:system/magcd :magcd/GF 
+:log/acctid 636652 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -612] 
+:system/magcd :magcd/GF 
+:log/acctid 640629 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -613] 
+:system/magcd :magcd/GF 
+:log/acctid 640629 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 8 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -615] 
+:system/magcd :magcd/GF 
+:log/acctid 641512 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -616] 
+:system/magcd :magcd/GF 
+:log/acctid 641512 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -618] 
+:system/magcd :magcd/GF 
+:log/acctid 641846 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -619] 
+:system/magcd :magcd/GF 
+:log/acctid 641846 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -621] 
+:system/magcd :magcd/GF 
+:log/acctid 643219 
+:log/isCustomerInput false
+:question/type :question/affluentEditionCorpDb 
+:originalTimeStamp #inst "2016-01-27T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AFFL 
+:answer/affluentEditionCorpDb 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -622] 
+:system/magcd :magcd/GF 
+:log/acctid 643219 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -623] 
+:system/magcd :magcd/GF 
+:log/acctid 643219 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 4 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -624] 
+:system/magcd :magcd/GF 
+:log/acctid 643219 
+:log/isCustomerInput false
+:question/type :question/subscriberType 
+:originalTimeStamp #inst "2016-01-21T00:00:00Z" 
+:source "AUMS" 
+:sourceType "F" 
+:system/demoOffer :demoOffer/AUMS 
+:answer/subscriberType :subscriberType/SEVEN 
+:batchNumber "0099997" 
+}
+
+{ 
+:db/id #db/id[db.part/user -626] 
+:system/magcd :magcd/GF 
+:log/acctid 643419 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -627] 
+:system/magcd :magcd/GF 
+:log/acctid 643419 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -629] 
+:system/magcd :magcd/GF 
+:log/acctid 645303 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -630] 
+:system/magcd :magcd/GF 
+:log/acctid 645303 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -632] 
+:system/magcd :magcd/GF 
+:log/acctid 646168 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -633] 
+:system/magcd :magcd/GF 
+:log/acctid 646168 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -635] 
+:system/magcd :magcd/GF 
+:log/acctid 647335 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 3 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -636] 
+:system/magcd :magcd/GF 
+:log/acctid 647335 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -638] 
+:system/magcd :magcd/GF 
+:log/acctid 649687 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -639] 
+:system/magcd :magcd/GF 
+:log/acctid 649687 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -641] 
+:system/magcd :magcd/GF 
+:log/acctid 650868 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -642] 
+:system/magcd :magcd/GF 
+:log/acctid 650868 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -644] 
+:system/magcd :magcd/GF 
+:log/acctid 656153 
+:log/isCustomerInput false
+:question/type :question/affluentEditionCorpDb 
+:originalTimeStamp #inst "2013-01-09T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AFFL 
+:answer/affluentEditionCorpDb 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -645] 
+:system/magcd :magcd/GF 
+:log/acctid 656153 
+:log/isCustomerInput false
+:question/type :question/income 
+:originalTimeStamp #inst "2012-12-11T00:00:00Z" 
+:source "ACXT" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AINC 
+:answer/income 75 
+:batchNumber "0076004" 
+}
+{ 
+:db/id #db/id[db.part/user -646] 
+:system/magcd :magcd/GF 
+:log/acctid 656153 
+:log/isCustomerInput false
+:question/type :question/capModel 
+:originalTimeStamp #inst "2012-12-03T00:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/AMDL 
+:answer/capModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -648] 
+:system/magcd :magcd/GF 
+:log/acctid 661659 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 1 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -649] 
+:system/magcd :magcd/GF 
+:log/acctid 661659 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+
+{ 
+:db/id #db/id[db.part/user -651] 
+:system/magcd :magcd/GF 
+:log/acctid 661772 
+:log/isCustomerInput false
+:question/type :question/renewOnlineScore 
+:originalTimeStamp #inst "2016-08-01T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/ALNN 
+:answer/renewOnlineScore 2 
+:batchNumber "0076006" 
+}
+{ 
+:db/id #db/id[db.part/user -652] 
+:system/magcd :magcd/GF 
+:log/acctid 661772 
+:log/isCustomerInput false
+:question/type :question/priceSensitivityModel 
+:originalTimeStamp #inst "2016-09-22T23:00:00Z" 
+:source "ACXM" 
+:sourceType "L" 
+:system/demoOffer :demoOffer/APSM 
+:answer/priceSensitivityModel 10 
+:batchNumber "0076006" 
+}
+]

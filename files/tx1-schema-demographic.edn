@@ -1,0 +1,467 @@
+[
+   ;;importer entity used for keeping track for which file are loaded.
+   {:db/id #db/id[:db.part/db]
+    :db/ident :importer/fileName
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/many
+    :db/doc "filename for this chunk of import"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :importer/magCode
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/unique :db.unique/identity
+    :db/doc "magCode to singleton complete"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :importer/tx
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/many
+    :db/doc "All the transaction entity that the job took"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :importer/isComplete
+    :db/valueType :db.type/boolean
+    :db/cardinality :db.cardinality/one
+    :db/doc "Is intial bulk import complete"
+    :db.install/_attribute :db.part/db}
+
+    ;; DISPLAY ATTRIBUTES
+    {:db/id #db/id[:db.part/db]
+    :db/ident :display/survey
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Survey entity."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :channel
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/many
+    :db/doc "Channel."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :system/magcd
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Magazine code."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :allQuestions/form
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/many
+    :db/doc "Form entities for a magazine."
+    :db.install/_attribute :db.part/db}
+
+     {:db/id #db/id[:db.part/db]
+    :db/ident :doNotShow/form
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/many
+    :db/doc "Blacklist of form entities for the magazine."
+    :db.install/_attribute :db.part/db}
+
+    ;; SURVEY ATTRIBUTES
+    {:db/id #db/id[:db.part/db]
+    :db/ident :survey/form
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/many
+    :db/doc "Form entities in the survey."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :system/demoOffer
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Demo offer of the survey."
+    :db.install/_attribute :db.part/db}
+
+    ;; Form ATTRIBUTES
+   {:db/id #db/id[:db.part/db]
+    :db/ident :form/question
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "question for the form."
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :form/sampleSpace
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/many
+    :db/doc "sample space for the form"
+    :db.install/_attribute :db.part/db}
+
+
+    ;; QUESTION ATTRIBUTES
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :question/type
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Question type."
+    :db.install/_attribute :db.part/db}
+
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :question/createdBy
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Creator of the question."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :question/demoCode
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/doc "Demo code of this question."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :question/displayName
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/doc "Display text for this question."
+    :db.install/_attribute :db.part/db}
+
+    ;; Global ANSWER ATTRIBUTES
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/unknown
+    :db/valueType :db.type/boolean
+    :db/cardinality :db.cardinality/one
+    :db/doc "Unknown Answer."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/optIn
+    :db/valueType :db.type/boolean
+    :db/cardinality :db.cardinality/one
+    :db/doc "True to include or force option or false to exclude."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/demoChoice
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/doc "Demo choice in the answer."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/displayName
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/doc "Display text for this answer."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/quantity
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "Quantity for this answer."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/quantityType
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/doc "Quantity Type for this answer."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/dnfExpression
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "DNF Expression for this answer."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/dnfRule
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "DNF Rule for this answer."
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/quantityAlias
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/many
+    :db/doc "Used as another refs for answer"
+    :db.install/_attribute :db.part/db}
+
+    ;; SAMPLE SPACE ATTRIBUTES
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answerSet/answer
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/many
+    :db/doc "Answer entities."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :sizeOfSelection/dnfRule
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "DNF Rule entity."
+    :db.install/_attribute :db.part/db}
+
+    ;; DNF RULES ATTRIBUTES
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :dnfRule/expression
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/many
+    :db/doc "DNF Expression entities."
+    :db.install/_attribute :db.part/db}
+
+    ;; DNF EXPRESSION ATTRIBUTES
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :operator/lte
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "Less than or equal to."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :operator/gte
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "Greater than or equal to."
+    :db.install/_attribute :db.part/db}
+
+ ;;Other RULES in ANSWER Entities
+   {:db/id #db/id[:db.part/db]
+    :db/ident :operator/before
+    :db/valueType :db.type/instant
+    :db/cardinality :db.cardinality/one
+    :db/doc "before this date"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :operator/after
+    :db/valueType :db.type/instant
+    :db/cardinality :db.cardinality/one
+    :db/doc "after this date"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :operator/multiplier
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "Number to divide by for ETL downstream"
+    :db.install/_attribute :db.part/db}
+
+ ;;log Entity
+    {:db/id #db/id[:db.part/db]
+     :db/ident :log/acctid
+     :db/index true
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "Account id."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :source
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/doc "Source."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :originalTimeStamp
+    :db/valueType :db.type/instant
+    :db/cardinality :db.cardinality/one
+    :db/doc "Original timestamp."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :sourceType
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/doc "Source type."
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :batchNumber
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/doc "batch Number"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+   :db/ident :log/isCustomerInput
+   :db/valueType :db.type/boolean
+   :db/cardinality :db.cardinality/one
+   :db/doc "Flag to distinguish customer input."
+   :db.install/_attribute :db.part/db}
+
+ ;; Customer Entity
+   {:db/id #db/id[:db.part/db]
+    :db/ident :customer/acctid
+    :db/index true
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "Account id."
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :customer/email
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/many
+    :db/doc "email"
+    :db.install/_attribute :db.part/db}
+
+    ;; Report entity
+    {:db/id #db/id[:db.part/db]
+    :db/ident :report/demoType
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/doc "Report demo type"
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :constraint/dnfRule
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Report dnf rule constraint"
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :report/inferredField
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Report inferred field"
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :report/sourceType
+    :db/valueType :db.type/string
+    :db/cardinality :db.cardinality/one
+    :db/doc "Report source type."
+    :db.install/_attribute :db.part/db}
+
+   ;;GLOBAL single answer attribute
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/subscriberType
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/many
+    :db/doc "Subscriber Type"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/birthdaySelfReport
+    :db/valueType :db.type/instant
+    :db/cardinality :db.cardinality/one
+    :db/doc "Birthday Self Reported"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/income
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "Income"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/childBirthday
+    :db/valueType :db.type/instant
+    :db/cardinality :db.cardinality/one
+    :db/doc "Child birthday"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/capModel
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "Cap Model Score"
+    :db.install/_attribute :db.part/db}
+
+   {:db/id #db/id[:db.part/db]
+    :db/ident :answer/renewOnlineScore
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "renew online score"
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/priceSensitivityModel
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "price sensitivity model"
+    :db.install/_attribute :db.part/db}
+
+    ;; ANSWER CHOICES TO GLOBAL QUESTIONS
+    ;; answer/subscriberType choices
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/ONE :db/doc "1"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/TWO :db/doc "2"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/THREE :db/doc "3"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/FOUR :db/doc "4"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/FIVE :db/doc "5"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/SIX :db/doc "6"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/SEVEN :db/doc "7"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/EIGHT :db/doc "8"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/NINE :db/doc "9"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/TEN :db/doc "10"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/ELEVEN :db/doc "11"]
+    [:db/add #db/id[:db.part/user] :db/ident :subscriberType/TWELVE :db/doc "12"]
+
+    ;; GLOBAL question/type
+    [:db/add #db/id[:db.part/user] :db/ident :question/subscriberType :db/doc "UMS question"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/income :db/doc "Income"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/birthdaySelfReport :db/doc "Self Reported Birthday"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/childBirthday :db/doc "Number of Children"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/regESelectionDRG :db/doc "REG E Selection-DRG"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/regESelection :db/doc "REG E Selection-REG"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/regESelectionRG0 :db/doc "REG E Selection-RG0"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/capModel :db/doc "cap Model score"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/renewOnlineScore :db/doc "renew online score"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/priceSensitivityModel :db/doc "price sensitivity model"]
+
+     ;; :survey/demoOffer enum
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/AUMS :db/doc "UMS question demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/AINC :db/doc "Income demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/ABDY :db/doc "Self Reported Birthday demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/APOC :db/doc "Number of Children demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/AMDL :db/doc "cap Model score demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/ALNN :db/doc "renew online score demo offer code"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/APSM :db/doc "price sensitivity model demo offer code"]
+
+    ;; magCode
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/AY :db/doc "AY"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/EE :db/doc "EE"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/EW :db/doc "EW"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/FO :db/doc "FO"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/GF :db/doc "GF"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/IN :db/doc "IN"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/MO :db/doc "MO"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/PP :db/doc "PP"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/PE :db/doc "PE"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/PW :db/doc "PW"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/SI :db/doc "SI"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/SK :db/doc "SK"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/SM :db/doc "SM"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/TD :db/doc "TD"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/TK :db/doc "TK"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/TH :db/doc "TH"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/CK :db/doc "CK"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/CT :db/doc "CT"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/HA :db/doc "HA"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/SL :db/doc "SL"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/SU :db/doc "SU"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/LE :db/doc "LE"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/SG :db/doc "SG"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/CE :db/doc "CE"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/WI :db/doc "WI"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/CH :db/doc "CH"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/CQ :db/doc "CQ"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/CF :db/doc "CF"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/CY :db/doc "CY"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/CC :db/doc "CC"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/CW :db/doc "CW"]
+     [:db/add #db/id[:db.part/user] :db/ident :magcd/ALL :db/doc "ALL"]
+
+]

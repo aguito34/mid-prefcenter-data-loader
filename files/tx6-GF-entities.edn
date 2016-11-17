@@ -1,0 +1,251 @@
+[
+ ;;rule for handcap
+ {
+  :db/id                      #db/id[:db.part/user -1]
+  :operator/lte              999
+  :operator/gte              0
+  }
+ ;;Rule Entity
+
+ {
+  :db/id                      #db/id[:db.part/user -2]
+  :dnfRule/expression         #db/id[:db.part/user -1]
+  }
+ ;;--------------------golf Improvement ----------------------
+ ;;question
+ {
+  :db/id                      #db/id[:db.part/user -2005]
+  :question/type              :question/golfImprovement
+  :question/demoCode          "IMP"
+  :question/displayName       "GF MASS ADVANCE IMPROVE GAME"
+  :question/createdBy         :magcd/GF
+  }
+ ;;answers
+ {
+  :db/id                      #db/id[:db.part/user -20004]
+  :question/type              :question/golfImprovement
+  :answer/quantityType        "S"
+  :answer/quantity             1
+  :answer/displayName         "DRIVING GAME"
+  :answer/golfImprovement     :golfImprovement/ONE
+  }
+
+ ;; guuid-SHORT-GAME
+ {
+  :db/id                      #db/id[:db.part/user -20006]
+  :question/type              :question/golfImprovement
+  :answer/quantityType        "S"
+  :answer/quantity             2
+  :answer/displayName         "SHORT GAME"
+  :answer/golfImprovement     :golfImprovement/TWO
+  }
+
+ ;; guuid-PUT-GAME
+ {
+  :db/id                      #db/id[:db.part/user -20005]
+  :question/type              :question/golfImprovement
+  :answer/quantityType        "S"
+  :answer/quantity             3
+  :answer/displayName         "PUTTING GAME"
+  :answer/golfImprovement     :golfImprovement/THREE
+  }
+ ;; guuid-imp-ukn
+ {
+  :db/id                      #db/id[:db.part/user -20008]
+  :question/type              :question/golfImprovement
+  :answer/quantityType         "S"
+  :answer/unknown             true
+  :answer/quantity            4
+  :answer/quantityAlias       0
+  :answer/displayName         "DEFAULT VALUE"
+  }
+ ;;*******AIM1****
+ ;; imp-ss-DEFAULT-IMPROVEMENT
+ {
+  :db/id                      #db/id[:db.part/user -20205]
+  :sizeOfSelection/dnfRule    :rule/one
+  :system/demoOffer           :demoOffer/AIM1
+  :answerSet/answer           [#db/id[:db.part/user -20008] #db/id[:db.part/user -20004]
+                               #db/id[:db.part/user -20006] #db/id[:db.part/user -20005]]
+  }
+ ;; IMP - form
+ {
+  :db/id                       #db/id[:db.part/user -20405]
+  :form/question               #db/id[:db.part/user -2005]
+  :form/sampleSpace            #db/id[:db.part/user -20205]
+  }
+ ;;**********IIM1********
+ ;; imq-ss-DRIVER-GAME
+ {
+  :db/id                      #db/id[:db.part/user -20202]
+  :sizeOfSelection/dnfRule    :rule/one
+  :answerSet/answer           [#db/id[:db.part/user -20004]]
+    :system/demoOffer         :demoOffer/IIM1
+  }
+ ;; IIM1 - form
+ {
+  :db/id                       #db/id[:db.part/user -20402]
+  :form/question               #db/id[:db.part/user -2005]
+  :form/sampleSpace            #db/id[:db.part/user -20202]
+  }
+
+ ;;**********IIM2********
+ ;; imr-ss-SHORT-GAME
+ {
+  :db/id                      #db/id[:db.part/user -20204]
+  :sizeOfSelection/dnfRule    :rule/one
+  :answerSet/answer           [#db/id[:db.part/user -20006]]
+  :system/demoOffer         :demoOffer/IIM2
+  }
+ ;; form - IIM2
+ {
+  :db/id                       #db/id[:db.part/user -20404]
+  :form/question               #db/id[:db.part/user -2005]
+  :form/sampleSpace            #db/id[:db.part/user -20204]
+  }
+ ;;**********IIM3********
+ ;; ims-ss-PUT-GAME
+ {
+  :db/id                      #db/id[:db.part/user -20203]
+  :sizeOfSelection/dnfRule    :rule/one
+  :answerSet/answer           [#db/id[:db.part/user -20005]]
+    :system/demoOffer         :demoOffer/IIM3
+  }
+ ;;form - IIM3
+ {
+  :db/id                       #db/id[:db.part/user -20403]
+  :form/question               #db/id[:db.part/user -2005]
+  :form/sampleSpace            #db/id[:db.part/user -20203]
+  }
+ ;;REPORT IMP
+ {
+  :db/id                     #db/id[:db.part/user -960121]
+  :question/type             :question/golfImprovement
+  :constraint/dnfRule         :rule/storeMax999
+  :report/demoType            "M"
+  :report/sourceType          "F"
+  }
+ ;;--------------------golf handcap score ----------------------
+ ;;question
+ {
+  :db/id                      #db/id[:db.part/user -2001]
+  :question/type              :question/golfHdcapScore
+  :question/demoCode          "HCP"
+  :question/displayName       "GOLF HANDICAP SCORE"
+  :question/createdBy         :magcd/GF
+  }
+ ;;answer
+ {
+  :db/id                      #db/id[:db.part/user -20002]
+  :question/type              :question/golfHdcapScore
+  :answer/quantityType        "S"
+  :answer/displayName         "Enter a score - MUST BE 0 TO 999"
+  :answer/dnfRule             #db/id[:db.part/user -2]
+  }
+ ;; sample space
+ {
+  :db/id                      #db/id[:db.part/user -20201]
+  :sizeOfSelection/dnfRule    :rule/one
+  :answerSet/answer           [#db/id[:db.part/user -20002]]
+   :system/demoOffer          :demoOffer/AHC1
+  }
+ ;;hcp-form
+ {
+  :db/id                       #db/id[:db.part/user -20401]
+  :form/question               #db/id[:db.part/user -2001]
+  :form/sampleSpace            #db/id[:db.part/user -20201]
+  }
+ ;;report
+ {
+  :db/id                     #db/id[:db.part/user -960119]
+  :question/type             :question/golfHdcapScore
+  :constraint/dnfRule         :rule/storeMax999
+  :report/demoType            "M"
+  :report/sourceType          "F"
+  }
+
+ ;;--------------------challenge USA----------------------
+ ;;question
+ {
+  :db/id                      #db/id[:db.part/user -211]
+  :question/type              :question/challengeUSA
+  :question/demoCode           "CHL"
+  :question/displayName        "THE CHALLENGE USA"
+  :question/createdBy         :magcd/GF
+  }
+ ;;answer
+ {
+  :db/id                     #db/id[:db.part/user -111]
+  :question/type              :question/challengeUSA
+  :answer/unknown             true
+  :answer/displayName         "UNKNOWN"
+  }
+ ;;sample space
+ {
+  :db/id                       #db/id[:db.part/user -301]
+  :sizeOfSelection/dnfRule     :rule/one
+  :answerSet/answer            [#db/id[:db.part/user -111]]
+   :system/demoOffer            :demoOffer/CHLG
+  }
+ ;;form
+ {
+  :db/id                       #db/id[:db.part/user -411]
+  :form/question               #db/id[:db.part/user -211]
+  :form/sampleSpace             #db/id[:db.part/user -301]
+  }
+ ;;report
+ {
+  :db/id                     #db/id[:db.part/user -960023]
+  :question/type             :question/challengeUSA
+  :constraint/dnfRule         :rule/storeMax999
+  :report/demoType            "S"
+  :report/sourceType          "O"
+  }
+
+
+  ;; group all form entities
+    {
+      :db/id                      #db/id[:db.part/user -503]
+      :system/magcd               :magcd/GF
+      :allQuestions/form          [
+                                    ;; ACH1 form
+                                    #db/id[:db.part/user -20401]
+                                    ;; AIM1 form
+                                    #db/id[:db.part/user -20405]
+                                    ;; CHLG
+                                    #db/id[:db.part/user -411]
+                                    ;; IIM1
+                                    #db/id[:db.part/user -20402]
+                                    ;; IIM3
+                                    #db/id[:db.part/user -20403]
+                                    ;; IIM4
+                                    #db/id[:db.part/user -20404]
+                                   :form/regESelectionRG0
+                                   :form/regESelectionDRG
+                                   :form/regESelection
+
+                                  ]
+      :doNotShow/form             [
+                                    ;; CHLG
+                                    #db/id[:db.part/user -411]
+                                    ;; IIM1
+                                    #db/id[:db.part/user -20402]
+                                    ;; IIM3
+                                    #db/id[:db.part/user -20403]
+                                    ;; IIM2
+                                    #db/id[:db.part/user -20404]
+                                   :form/regESelectionRG0
+                                   :form/regESelectionDRG
+                                   :form/regESelection
+
+                                  ]
+    }
+]
+
+
+
+
+
+
+
+

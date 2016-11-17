@@ -1,0 +1,169 @@
+[
+
+ ;;Expression Entity
+
+ {
+	:db/id                      #db/id[:db.part/user -1032]
+	:operator/lte              3
+	:operator/gte              1
+	}
+ ;;Rule Entity
+
+ {
+	:db/id                      #db/id[:db.part/user -11033]
+	:dnfRule/expression         #db/id[:db.part/user -1032]
+	}
+
+ ;; -------------------- TW TRANSACTIONAL DATA------------------------
+ ;;question
+ {
+  :db/id                      #db/id[:db.part/user -900]
+  :question/type              :question/twTransactData
+  :question/demoCode          "EWI"
+  :question/displayName       "TW transactional data"
+  :question/createdBy         :magcd/EW
+  }
+
+ ;;answer
+ {
+  :db/id                      #db/id[:db.part/user -901]
+  :question/type              :question/twTransactData
+  :answer/displayName         "TW transactional data"
+  :answer/quantityType        "S"
+  }
+ ;;sample space
+ {
+  :db/id                      #db/id[:db.part/user -902]
+  :sizeOfSelection/dnfRule    :rule/one
+  :answerSet/answer           [#db/id[:db.part/user -901]]
+  :system/demoOffer            :demoOffer/AEWI
+  }
+ ;;form
+ {
+  :db/id                       #db/id[:db.part/user -903]
+  :form/question               #db/id[:db.part/user -900]
+  :form/sampleSpace            #db/id[:db.part/user -902]
+  }
+ ;;report
+ {
+  :db/id                     #db/id[:db.part/user -906]
+  :question/type             :question/twTransactData
+  :constraint/dnfRule       :rule/storeMax999
+  :report/demoType            "M"
+  :report/sourceType          "L"
+  }
+
+ ;; -------------------- School Plan Model------------------------
+ ;;question
+ {
+  :db/id                      #db/id[:db.part/user -700]
+  :question/type              :question/schoolModel
+  :question/demoCode          "SCL"
+  :question/displayName       "School Plan Model"
+  :question/createdBy         :magcd/EW
+  }
+
+ ;;answer
+ {
+  :db/id                      #db/id[:db.part/user -701]
+  :question/type              :question/schoolModel
+  :answer/displayName         "School Plan Model"
+  :answer/quantityType        "S"
+  }
+ ;;sample space
+ {
+  :db/id                      #db/id[:db.part/user -702]
+  :sizeOfSelection/dnfRule    :rule/one
+  :answerSet/answer           [#db/id[:db.part/user -701]]
+  :system/demoOffer            :demoOffer/ASCL
+  }
+ ;;form
+ {
+  :db/id                       #db/id[:db.part/user -703]
+  :form/question               #db/id[:db.part/user -700]
+  :form/sampleSpace            #db/id[:db.part/user -702]
+  }
+ ;;report
+ {
+  :db/id                     #db/id[:db.part/user -706]
+  :question/type             :question/schoolModel
+  :constraint/dnfRule        :rule/storeMax999
+  :report/demoType            "M"
+  :report/sourceType          "L"
+  }
+
+;; -------------------- Exclude Cigarette Ads------------------------
+ ;;question
+ {
+  :db/id                      #db/id[:db.part/user -800]
+  :question/type              :question/excludeCigaretteAds
+  :question/demoCode          "CIG"
+  :question/displayName       "exclude cigarette ads"
+  :question/createdBy         :magcd/EW
+  }
+
+ ;;answer
+ {
+  :db/id                      #db/id[:db.part/user -801]
+  :question/type              :question/excludeCigaretteAds
+	:answer/unknown							true
+  :answer/displayName         "exclude cigarette ads"
+  }
+ ;;sample space
+ {
+  :db/id                      #db/id[:db.part/user -802]
+  :sizeOfSelection/dnfRule    :rule/one
+  :answerSet/answer           [#db/id[:db.part/user -801]]
+  :system/demoOffer            :demoOffer/CIGS
+  }
+ ;;form
+ {
+  :db/id                       #db/id[:db.part/user -803]
+  :form/question               #db/id[:db.part/user -800]
+  :form/sampleSpace            #db/id[:db.part/user -802]
+  }
+ ;;report
+ {
+  :db/id                     #db/id[:db.part/user -806]
+  :question/type             :question/excludeCigaretteAds
+  :constraint/dnfRule       :rule/storeMax999
+  :report/demoType            "M"
+  :report/sourceType          "O"
+  }
+
+  ;; group all form entities
+  {
+    :db/id                      #db/id[:db.part/user -710]
+    :system/magcd               :magcd/EW
+    :allQuestions/form          [   ;; schoolModel
+                                    #db/id[:db.part/user -703]
+                                    ;; twTransactData
+                                    #db/id[:db.part/user -903]
+                                    ;; excludeCigaretteAds
+                                    #db/id[:db.part/user -803]
+                                    :form/income
+                                    :form/renewOnlineScore
+                                    :form/childBirthday
+                                    :form/birthdaySelfReport
+                                    :form/subscriberType
+                                    :form/capModel
+                                    :form/priceSensitivityModel
+                                ]
+    :doNotShow/form             [   ;; schoolModel
+                                    #db/id[:db.part/user -703]
+                                    ;; twTransactData
+                                    #db/id[:db.part/user -903]
+                                    ;; excludeCigaretteAds
+                                    #db/id[:db.part/user -803]
+                                    :form/income
+                                    :form/renewOnlineScore
+                                    :form/childBirthday
+                                    :form/birthdaySelfReport
+                                    :form/subscriberType
+                                    :form/capModel
+                                    :form/priceSensitivityModel
+                                ]
+  }
+
+
+ ]

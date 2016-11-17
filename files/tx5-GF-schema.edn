@@ -1,0 +1,34 @@
+[
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/golfHdcapScore
+    :db/valueType :db.type/long
+    :db/cardinality :db.cardinality/one
+    :db/doc "Golf Handicap Score Answer."
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :answer/golfImprovement
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "GF Renewals 3 Golf Improvements Answer."
+    :db.install/_attribute :db.part/db}
+
+    ;; question/type enum
+    [:db/add #db/id[:db.part/user] :db/ident :question/golfHdcapScore :db/doc "HCP question"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/golfImprovement :db/doc "IMP question"]
+    [:db/add #db/id[:db.part/user] :db/ident :question/challengeUSA :db/doc "CHL question"]
+
+    ;; IMP choices
+    [:db/add #db/id[:db.part/user] :db/ident :golfImprovement/ONE :db/doc "1"]
+    [:db/add #db/id[:db.part/user] :db/ident :golfImprovement/TWO :db/doc "2"]
+    [:db/add #db/id[:db.part/user] :db/ident :golfImprovement/THREE :db/doc "3"]
+
+    ;; :survey/demoOffer enum
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/AHC1 :db/doc "HCP question"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/AIM1 :db/doc "Default improvement demo offer"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/IIM1 :db/doc "Driver game demo offer"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/IIM2 :db/doc "Short game demo offer"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/IIM3 :db/doc "Put game demo offer"]
+    [:db/add #db/id[:db.part/user] :db/ident :demoOffer/CHLG :db/doc "CHL question"]
+
+ ]
