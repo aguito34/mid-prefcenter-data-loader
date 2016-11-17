@@ -219,8 +219,7 @@ public class Transactor {
         int numberOfFiles = (endFile - startFile) + 1;
 
         // Use all your cores. ExecutorService that will always be running the total number of hyperthreads
-        int availableProcessors = Runtime.getRuntime().availableProcessors();
-        ExecutorService exec = Executors.newFixedThreadPool(availableProcessors);
+        ExecutorService exec = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 
         for (int x = startFile; x <= endFile; x++) {
             System.out.println("Parsing seed " + x + "data edn file and running transaction...");
@@ -252,7 +251,7 @@ public class Transactor {
 
             Collection results = Peer.query(query, conn.db());
 
-            count += results.size();
+            count = results.size();
             System.out.println("count: " + count);
             if(count == numberOfFiles){
                 System.out.println("Transacted number of files:" + numberOfFiles);
