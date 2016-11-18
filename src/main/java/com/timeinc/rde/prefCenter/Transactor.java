@@ -11,14 +11,15 @@ import java.io.IOException;
 import java.io.Reader;
 import java.text.ParseException;
 import java.util.*;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
+
 /**
  * Created by vanm on 6/30/16.
  */
 public class Transactor {
+
+    private static final int THREADS = 4;
+    private static Connection conn;
 
     public static void main(String[] args) throws ParseException, ExecutionException, InterruptedException, IOException {
         String magCode = "GF";
@@ -100,8 +101,6 @@ public class Transactor {
             }
         }
 
-        Connection conn;
-        long startTime = System.nanoTime();
         if(transactLocal){
             if(transactSelfReported){
                 if(createDatabase){
@@ -130,10 +129,10 @@ public class Transactor {
             String uri;
             String fileNameWithPath;
             if(transactSelfReported){
-                uri = "datomic:ddb://us-east-1/ti-use1b-rde-dynamo-preference-center-ask-james-ruska-at-timeinc/selfReported";
+                uri = uriSelfServer;
                 fileNameWithPath = magCode.toLowerCase() + "-0930-self-reported/" + magCode.toLowerCase()+ "_uniq_dt0930.csv.quads";
             } else {
-                uri = "datomic:ddb://us-east-1/ti-use1b-rde-dynamo-preference-center-ask-james-ruska-at-timeinc/demographic";
+                uri = uriDemoServer;
                 fileNameWithPath = magCode.toLowerCase() + "-0930-demographic/" + magCode.toLowerCase()+ "_uniq_dt0930.csv.quads";
             }
             System.out.println("File name: " + fileNameWithPath + " start " + startFile + " endFile " + endFile);
@@ -150,11 +149,15 @@ public class Transactor {
                     loadSchemaDemographic(conn);
                 }
             }
+            System.out.println("Transact data...");
+            long start = System.nanoTime();
             transactData(conn, fileNameWithPath, magCode, startFile, endFile);
+            System.out.println("Total time to transact data: " + ((System.nanoTime() - start)/1000000) + "ms.");
+
         }
-        System.out.println("\nRelease connection...");
-        conn.release();
-        //System.exit(0);
+        System.out.println("\nExit");
+
+        System.exit(0);
     }
 
     private static void verify(Scanner in) {
@@ -214,83 +217,30 @@ public class Transactor {
 
     }
 
-    public static Object transactData(Connection conn, String fileNameWithPath, String magCode, int startFile, int endFile) throws InterruptedException, ExecutionException {
-
-        int numberOfFiles = (endFile - startFile) + 1;
-
-        // Use all your cores. ExecutorService that will always be running the total number of hyperthreads
-        ExecutorService exec = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
-
-        for (int x = startFile; x <= endFile; x++) {
-            System.out.println("Parsing seed " + x + "data edn file and running transaction...");
-            String fileNumber = Integer.toString(x);
-            exec.submit(() -> {
-                        try {
-                            Object result = transactFileAsync(fileNameWithPath + fileNumber + ".edn" , conn);
-                            System.out.println("Async tx returned: " + result);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        } catch (ExecutionException e) {
-                            e.printStackTrace();
-                        }
-                    }
-            );
+    public static void transactData(Connection conn, String fileNameWithPath, String magCode, int startFile, int endFile) throws InterruptedException, ExecutionException {
+        ExecutorService exec = Executors.newFixedThreadPool(THREADS);
+        List<AsyncTransact> futureList = new ArrayList<>();
+        for(int i = startFile; i<= endFile; i++){
+            String fileNumber = Integer.toString(i);
+            AsyncTransact tx = new AsyncTransact(fileNameWithPath + fileNumber + ".edn");
+            futureList.add(tx);
+        }
+        System.out.println("Start");
+        try {
+            List<Future<Boolean>> futures = exec.invokeAll(futureList);
+            for(Future<Boolean> future : futures){
+                try{
+                    System.out.println("future.isDone = " + future.isDone());
+                } catch(Exception e1){
+                    e1.printStackTrace();
+                }
+            }
+        } catch(Exception e){
+            e.printStackTrace();
         }
         exec.shutdown();
-        exec.awaitTermination(Long.MAX_VALUE, TimeUnit.SECONDS);
 
-        int count = 0;
-        do {
-            String query = "[:find ?files\n" +
-                    ":where \n" +
-                    "[?e :importer/magCode :magcd/" + magCode + "]\n" +
-                    "[?e :importer/fileName ?files]\n" +
-                    "]";
-
-            Collection results = Peer.query(query, conn.db());
-
-            count = results.size();
-            System.out.println("count: " + count);
-            if(count == numberOfFiles){
-                System.out.println("Transacted number of files:" + numberOfFiles);
-                break;
-            }
-            Thread.sleep(60000);
-        }while(true);
-
-        String query = "[:find ?e\n" +
-                ":in $ ?magCode \n" +
-                ":where \n" +
-                "[?e :importer/magCode ?magCode]\n" +
-                "]";
-        Collection<List<Object>>  results = Peer.query(query, conn.db(), magCode);
-
-        long entityId = 0;
-        for (List<Object> result :results){
-            Object questionObj = result.get(0);
-            if(questionObj instanceof Long){
-                entityId = (Long)questionObj;
-            }
-        }
-
-        Map transactFinish = new HashMap();
-        transactFinish.put(":importer/isComplete", true);
-        transactFinish.put(":db/id",  entityId);
-        Object tx = conn.transactAsync(Util.list(transactFinish)).get();
         conn.release();
-        return tx;
-
-    }
-
-    public static Object transactFileAsync(String fullFileName, Connection conn) throws IOException, InterruptedException, ExecutionException {
-        Reader data_rdr = new FileReader(fullFileName);
-        List data_tx = (List) Util.readAll(data_rdr).get(0);
-        data_rdr.close();
-        System.out.println("End async transact of " + fullFileName);
-        Object txResult = conn.transactAsync(data_tx).get();
-        return txResult;
     }
 
     public static void checkCount(String uriSelf, String uriDemo) {
@@ -310,4 +260,19 @@ public class Transactor {
         connSelf.release();
     }
 
+
+    static class AsyncTransact implements Callable<Boolean>{
+        private String fileName;
+
+        public AsyncTransact(String fileName){
+            this.fileName = fileName;
+        }
+        public Boolean call() throws InterruptedException, ExecutionException, IOException {
+            Reader data_rdr = new FileReader(fileName);
+            List data_tx = (List) Util.readAll(data_rdr).get(0);
+            data_rdr.close();
+            Object txResult = conn.transactAsync(data_tx).get();
+            return (boolean) txResult;
+        }
+    }
 }
