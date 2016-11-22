@@ -143,6 +143,10 @@
         :db/id                      #db/id[:db.part/user -304322222]
         :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
         :system/demoOffer            :demoOffer/AUMS
+        :sampleSpace/dateAdded      #inst "2015-02-18T00:00:00Z"
+        :sampleSpace/lastModifiedBy  :user/XMK
+        :sampleSpace/recordType     :recordType/S
+        :sampleSpace/override       :override/I
         :answerSet/answer           [#db/id[:db.part/user -3001] #db/id[:db.part/user -3002] #db/id[:db.part/user -3003] #db/id[:db.part/user -3004]
                                      #db/id[:db.part/user -3005] #db/id[:db.part/user -3006] #db/id[:db.part/user -3007] #db/id[:db.part/user -3008]
                                      #db/id[:db.part/user -3009] #db/id[:db.part/user -3010] #db/id[:db.part/user -3011] #db/id[:db.part/user -3012]]
@@ -161,7 +165,7 @@
         :question/type             :question/subscriberType
         :constraint/dnfRule        #db/id[:db.part/user -8800211]
         :report/demoType            "M"
-        :report/sourceType          "F"
+        :question/sourceType          "F"
         }
 
         ;; ------------------ INCOME --------------------
@@ -185,6 +189,10 @@
             :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
             :answerSet/answer           [#db/id[:db.part/user -3023]]
             :system/demoOffer            :demoOffer/AINC
+            :sampleSpace/dateAdded       #inst "2016-11-21T00:00:00Z"
+            :sampleSpace/lastModifiedBy  :user/XPC
+            :sampleSpace/recordType     :recordType/P
+            :sampleSpace/override       :override/I
         }
         {
             :db/id                       #db/id[:db.part/user -3026]
@@ -199,7 +207,7 @@
         :question/type             :question/income
         :constraint/dnfRule        #db/id[:db.part/user -8800211]
         :report/demoType            "M"
-        :report/sourceType          "L"
+        :question/sourceType          "L"
         }
 
        ;; ------------------ SELF REPORTED BIRTHDAY --------------------
@@ -222,7 +230,11 @@
             :db/id                      #db/id[:db.part/user -3037]
             :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
             :answerSet/answer           [#db/id[:db.part/user -3035]]
-             :system/demoOffer            :demoOffer/ABDY
+            :system/demoOffer            :demoOffer/ABDY
+            :sampleSpace/dateAdded      #inst "2016-11-21T00:00:00Z"
+            :sampleSpace/lastModifiedBy  :user/XPC
+            :sampleSpace/recordType     :recordType/P
+            :sampleSpace/override       :override/I
         }
         {
             :db/id                       #db/id[:db.part/user -3038]
@@ -236,7 +248,7 @@
         :question/type             :question/birthdaySelfReport
         :constraint/dnfRule        #db/id[:db.part/user -8800211]
         :report/demoType            "M"
-        :report/sourceType          "O"
+        :question/sourceType          "O"
         }
 
         ;; ------------------ CHILDREN BIRTHDAY --------------------
@@ -260,6 +272,10 @@
             :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
             :answerSet/answer           [#db/id[:db.part/user -3041]]
             :system/demoOffer            :demoOffer/APOC
+            :sampleSpace/dateAdded      #inst "2016-11-21T00:00:00Z"
+            :sampleSpace/lastModifiedBy  :user/XPC
+            :sampleSpace/recordType     :recordType/P
+            :sampleSpace/override       :override/I
         }
         {
             :db/id                       #db/id[:db.part/user -3044]
@@ -273,7 +289,7 @@
         :question/type             :question/childBirthday
         :constraint/dnfRule        #db/id[:db.part/user -8800211]
         :report/demoType            "M"
-        :report/sourceType          "L"
+        :question/sourceType          "L"
         }
 
      ;; -------------------- CAPMODEL ANSWER------------------------
@@ -297,6 +313,10 @@
       :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
       :answerSet/answer           [#db/id[:db.part/user -1001212]]
       :system/demoOffer            :demoOffer/AMDL
+        :sampleSpace/dateAdded      #inst "2016-11-21T00:00:00Z"
+        :sampleSpace/lastModifiedBy  :user/XPC
+        :sampleSpace/recordType     :recordType/S
+        :sampleSpace/override       :override/I
       }
      {
       :db/id                       #db/id[:db.part/user -1006112]
@@ -310,7 +330,7 @@
       :question/type             :question/capModel
       :constraint/dnfRule        #db/id[:db.part/user -8800211]
       :report/demoType            "M"
-      :report/sourceType          "L"
+      :question/sourceType          "L"
       }
 
 
@@ -335,6 +355,10 @@
     	:sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
     	:answerSet/answer           [#db/id[:db.part/user -10012129]]
     	:system/demoOffer            :demoOffer/ALNN
+        :sampleSpace/dateAdded      #inst "2016-11-21T00:00:00Z"
+        :sampleSpace/lastModifiedBy  :user/XPC
+        :sampleSpace/recordType     :recordType/S
+        :sampleSpace/override       :override/I
     	}
      {
     	:db/id                       #db/id[:db.part/user -10061129]
@@ -348,7 +372,7 @@
     	:question/type             :question/renewOnlineScore
     	:constraint/dnfRule        #db/id[:db.part/user -8800211]
     	:report/demoType            "M"
-    	:report/sourceType          "L"
+    	:question/sourceType          "L"
     	}
 
 ;; -------------------- Price Sensitivity Model ------------------------
@@ -365,14 +389,17 @@
     	:question/type              :question/priceSensitivityModel
     	:answer/displayName         "price sensitivity model"
     	:answer/quantityType        "S"
-    	}
-
+     }
      {
     	:db/id                      #db/id[:db.part/user -10053329]
     	:sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
     	:answerSet/answer           [#db/id[:db.part/user -10012229]]
     	:system/demoOffer           :demoOffer/APSM
-    	}
+        :sampleSpace/dateAdded       #inst "2016-09-08T00:00:00Z"
+        :sampleSpace/lastModifiedBy  :user/L08
+        :sampleSpace/recordType      :recordType/P
+        :sampleSpace/override        :override/I
+     }
      {
     	:db/id                       #db/id[:db.part/user -10061329]
     	:db/ident                    :form/priceSensitivityModel
@@ -385,7 +412,7 @@
     	:question/type             :question/priceSensitivityModel
     	:constraint/dnfRule        #db/id[:db.part/user -8800211]
     	:report/demoType            "M"
-    	:report/sourceType          "L"
+    	:question/sourceType          "L"
     	}
 
 ]

@@ -331,14 +331,50 @@
     :db.install/_attribute :db.part/db}
 
     {:db/id #db/id[:db.part/db]
-    :db/ident :report/inferredField
+    :db/ident :sampleSpace/inferralField
     :db/valueType :db.type/ref
     :db/cardinality :db.cardinality/one
     :db/doc "Report inferred field"
     :db.install/_attribute :db.part/db}
 
     {:db/id #db/id[:db.part/db]
-    :db/ident :report/sourceType
+    :db/ident :sampleSpace/dateAdded
+    :db/valueType :db.type/instant
+    :db/cardinality :db.cardinality/one
+    :db/doc "Date added"
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :sampleSpace/dateModified
+    :db/valueType :db.type/instant
+    :db/cardinality :db.cardinality/one
+    :db/doc "Date last modified"
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :sampleSpace/recordType
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Record type"
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :sampleSpace/lastModifiedBy
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "User that last modified the Sample Space"
+    :db.install/_attribute :db.part/db}
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :sampleSpace/override
+    :db/valueType :db.type/ref
+    :db/cardinality :db.cardinality/one
+    :db/doc "Override as if immediately available or deferred preference"
+    :db.install/_attribute :db.part/db}
+
+
+    {:db/id #db/id[:db.part/db]
+    :db/ident :question/sourceType
     :db/valueType :db.type/string
     :db/cardinality :db.cardinality/one
     :db/doc "Report source type."
@@ -393,6 +429,23 @@
     :db/cardinality :db.cardinality/one
     :db/doc "price sensitivity model"
     :db.install/_attribute :db.part/db}
+
+    ;; recordType enum values
+    [:db/add #db/id[:db.part/user] :db/ident :recordType/P :db/doc "Preferences Center"]
+    [:db/add #db/id[:db.part/user] :db/ident :recordType/S :db/doc "Segmentation"]
+
+    ;; recordType enum values
+    [:db/add #db/id[:db.part/user] :db/ident :override/I :db/doc "Immediately Available"]
+    [:db/add #db/id[:db.part/user] :db/ident :override/D :db/doc "Deferred"]
+
+    ;; users
+    [:db/add #db/id[:db.part/user] :db/ident :user/XDM :db/doc "XDM"]
+    [:db/add #db/id[:db.part/user] :db/ident :user/XDQ :db/doc "XDQ"]
+    [:db/add #db/id[:db.part/user] :db/ident :user/XAT :db/doc "XAT"]
+    [:db/add #db/id[:db.part/user] :db/ident :user/L08 :db/doc "L08"]
+    [:db/add #db/id[:db.part/user] :db/ident :user/XMK :db/doc "XMK"]
+    [:db/add #db/id[:db.part/user] :db/ident :user/XFL :db/doc "XFL"]
+    [:db/add #db/id[:db.part/user] :db/ident :user/XPC :db/doc "XPC"]
 
     ;; ANSWER CHOICES TO GLOBAL QUESTIONS
     ;; answer/subscriberType choices

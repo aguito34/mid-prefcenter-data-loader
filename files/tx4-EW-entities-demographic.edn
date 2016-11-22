@@ -50,7 +50,7 @@
   :question/type             :question/twTransactData
   :constraint/dnfRule       :rule/storeMax999
   :report/demoType            "M"
-  :report/sourceType          "L"
+  :question/sourceType          "L"
   }
 
  ;; -------------------- School Plan Model------------------------
@@ -89,7 +89,7 @@
   :question/type             :question/schoolModel
   :constraint/dnfRule        :rule/storeMax999
   :report/demoType            "M"
-  :report/sourceType          "L"
+  :question/sourceType          "L"
   }
 
 ;; -------------------- Exclude Cigarette Ads------------------------
@@ -128,7 +128,7 @@
   :question/type             :question/excludeCigaretteAds
   :constraint/dnfRule       :rule/storeMax999
   :report/demoType            "M"
-  :report/sourceType          "O"
+  :question/sourceType          "O"
   }
 
   ;; group all form entities

@@ -58,6 +58,7 @@
   :answer/quantity            4
   :answer/quantityAlias       0
   :answer/displayName         "DEFAULT VALUE"
+  :answer/doNotShow            true
   }
  ;;*******AIM1****
  ;; imp-ss-DEFAULT-IMPROVEMENT
@@ -65,6 +66,11 @@
   :db/id                      #db/id[:db.part/user -20205]
   :sizeOfSelection/dnfRule    :rule/one
   :system/demoOffer           :demoOffer/AIM1
+  :sampleSpace/dateAdded        #inst "2015-12-22T00:00:00Z"
+  :sampleSpace/dateModified     #inst "2016-03-25T00:00:00Z"
+  :sampleSpace/lastModifiedBy  :user/XAT
+  :sampleSpace/recordType     :recordType/P
+  :sampleSpace/override       :override/I
   :answerSet/answer           [#db/id[:db.part/user -20008] #db/id[:db.part/user -20004]
                                #db/id[:db.part/user -20006] #db/id[:db.part/user -20005]]
   }
@@ -81,6 +87,10 @@
   :sizeOfSelection/dnfRule    :rule/one
   :answerSet/answer           [#db/id[:db.part/user -20004]]
     :system/demoOffer         :demoOffer/IIM1
+    :sampleSpace/dateAdded      #inst "2016-11-21T00:00:00Z"
+   :sampleSpace/lastModifiedBy  :user/XPC
+   :sampleSpace/recordType     :recordType/P
+   :sampleSpace/override       :override/I
   }
  ;; IIM1 - form
  {
@@ -96,6 +106,10 @@
   :sizeOfSelection/dnfRule    :rule/one
   :answerSet/answer           [#db/id[:db.part/user -20006]]
   :system/demoOffer         :demoOffer/IIM2
+  :sampleSpace/dateAdded      #inst "2016-11-21T00:00:00Z"
+     :sampleSpace/lastModifiedBy  :user/XPC
+     :sampleSpace/recordType     :recordType/P
+     :sampleSpace/override       :override/I
   }
  ;; form - IIM2
  {
@@ -110,6 +124,10 @@
   :sizeOfSelection/dnfRule    :rule/one
   :answerSet/answer           [#db/id[:db.part/user -20005]]
     :system/demoOffer         :demoOffer/IIM3
+    :sampleSpace/dateAdded      #inst "2016-11-21T00:00:00Z"
+       :sampleSpace/lastModifiedBy  :user/XPC
+       :sampleSpace/recordType     :recordType/P
+       :sampleSpace/override       :override/I
   }
  ;;form - IIM3
  {
@@ -123,7 +141,7 @@
   :question/type             :question/golfImprovement
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "M"
-  :report/sourceType          "F"
+  :question/sourceType          "F"
   }
  ;;--------------------golf handcap score ----------------------
  ;;question
@@ -148,6 +166,11 @@
   :sizeOfSelection/dnfRule    :rule/one
   :answerSet/answer           [#db/id[:db.part/user -20002]]
    :system/demoOffer          :demoOffer/AHC1
+   :sampleSpace/dateAdded      #inst "2016-01-07T00:00:00Z"
+   :sampleSpace/dateModified      #inst "2016-02-10T00:00:00Z"
+      :sampleSpace/lastModifiedBy  :user/XAT
+      :sampleSpace/recordType     :recordType/P
+      :sampleSpace/override       :override/I
   }
  ;;hcp-form
  {
@@ -161,7 +184,7 @@
   :question/type             :question/golfHdcapScore
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "M"
-  :report/sourceType          "F"
+  :question/sourceType          "F"
   }
 
  ;;--------------------challenge USA----------------------
@@ -186,6 +209,10 @@
   :sizeOfSelection/dnfRule     :rule/one
   :answerSet/answer            [#db/id[:db.part/user -111]]
    :system/demoOffer            :demoOffer/CHLG
+   :sampleSpace/dateAdded      #inst "2005-09-12T00:00:00Z"
+   :sampleSpace/lastModifiedBy  :user/XFL
+   :sampleSpace/recordType     :recordType/P
+   :sampleSpace/override       :override/I
   }
  ;;form
  {
@@ -199,7 +226,7 @@
   :question/type             :question/challengeUSA
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "S"
-  :report/sourceType          "O"
+  :question/sourceType          "O"
   }
 
 
@@ -212,28 +239,26 @@
                                     #db/id[:db.part/user -20401]
                                     ;; AIM1 form
                                     #db/id[:db.part/user -20405]
-                                    ;; CHLG
+
+
                                     #db/id[:db.part/user -411]
-                                    ;; IIM1
+
                                     #db/id[:db.part/user -20402]
-                                    ;; IIM3
                                     #db/id[:db.part/user -20403]
-                                    ;; IIM4
                                     #db/id[:db.part/user -20404]
+
                                    :form/regESelectionRG0
                                    :form/regESelectionDRG
                                    :form/regESelection
 
                                   ]
       :doNotShow/form             [
-                                    ;; CHLG
+
                                     #db/id[:db.part/user -411]
-                                    ;; IIM1
                                     #db/id[:db.part/user -20402]
-                                    ;; IIM3
                                     #db/id[:db.part/user -20403]
-                                    ;; IIM2
                                     #db/id[:db.part/user -20404]
+
                                    :form/regESelectionRG0
                                    :form/regESelectionDRG
                                    :form/regESelection

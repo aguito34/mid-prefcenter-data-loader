@@ -177,8 +177,8 @@ public class Transactor {
         try {
             transactFileSync(conn, "files/tx1-schema.edn");
             transactFileSync(conn, "files/tx2-entities.edn");
-            transactFileSync(conn, "files/tx3-EW-schema.edn");
-            transactFileSync(conn, "files/tx4-EW-entities.edn");
+            transactFileSync(conn, "files/tx3-EW-schema.edn");  //EW
+            transactFileSync(conn, "files/tx4-EW-entities.edn");  //EW
             transactFileSync(conn, "files/tx5-GF-schema.edn");
             transactFileSync(conn, "files/tx6-GF-entities.edn");
 
@@ -192,8 +192,8 @@ public class Transactor {
         try {
             transactFileSync(conn, "files/tx1-schema-demographic.edn");
             transactFileSync(conn, "files/tx2-entities-demographic.edn");
-            transactFileSync(conn, "files/tx3-EW-schema-demographic.edn");
-            transactFileSync(conn, "files/tx4-EW-entities-demographic.edn");
+            transactFileSync(conn, "files/tx3-EW-schema-demographic.edn");   // EW
+            transactFileSync(conn, "files/tx4-EW-entities-demographic.edn");  // EW
             transactFileSync(conn, "files/tx5-GF-schema-demographic.edn");
             transactFileSync(conn, "files/tx6-GF-entities-demographic.edn");
 

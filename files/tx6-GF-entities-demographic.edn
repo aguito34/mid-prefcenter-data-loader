@@ -34,6 +34,10 @@
   :sizeOfSelection/dnfRule    :rule/one
   :answerSet/answer           [#db/id[:db.part/user -20001]]
     :system/demoOffer         :demoOffer/AAGS
+    :sampleSpace/dateAdded      #inst "2015-01-09T00:00:00Z"
+   :sampleSpace/lastModifiedBy  :user/XDM
+   :sampleSpace/recordType     :recordType/P
+   :sampleSpace/override       :override/I
   }
  ;;guuid-ags-form
  {
@@ -47,7 +51,7 @@
   :question/type             :question/averageGolfScore
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "M"
-  :report/sourceType          "L"
+  :question/sourceType          "L"
   }
 
  ;;--------------------round played score----------------------
@@ -72,6 +76,10 @@
   :sizeOfSelection/dnfRule     :rule/one
   :answerSet/answer            [#db/id[:db.part/user -103]]
    :system/demoOffer            :demoOffer/AGLF
+   :sampleSpace/dateAdded      #inst "2015-01-09T00:00:00Z"
+  :sampleSpace/lastModifiedBy  :user/XDM
+  :sampleSpace/recordType     :recordType/P
+  :sampleSpace/override       :override/I
   }
  ;;form
  {
@@ -85,7 +93,7 @@
   :question/type             :question/respondToGolfRoundPlayed
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "M"
-  :report/sourceType          "L"
+  :question/sourceType          "L"
   }
 
 ;;--------------------affluent edition corp db----------------------
@@ -110,6 +118,10 @@
   :sizeOfSelection/dnfRule     :rule/one
   :answerSet/answer            [#db/id[:db.part/user -101]]
    :system/demoOffer            :demoOffer/AFFL
+   :sampleSpace/dateAdded      #inst "2007-08-29T00:00:00Z"
+  :sampleSpace/lastModifiedBy  :user/XDQ
+  :sampleSpace/recordType     :recordType/P
+  :sampleSpace/override       :override/I
   }
  ;;form
  {
@@ -123,7 +135,7 @@
   :question/type             :question/affluentEditionCorpDb
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "S"
-  :report/sourceType          "F"
+  :question/sourceType          "F"
   }
 
   ;; group all form entities

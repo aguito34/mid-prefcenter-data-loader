@@ -159,7 +159,7 @@
   :question/type             :question/faveGenre
   :constraint/dnfRule        :rule/storeMax999
   :report/demoType            "M"
-  :report/sourceType          "F"
+  :question/sourceType          "F"
   }
 
 
@@ -364,7 +364,7 @@
   :db/id                      #db/id[:db.part/user -111034]
   :sizeOfSelection/dnfRule    #db/id[:db.part/user -11033]
   :answerSet/answer           [#db/id[:db.part/user -1030]]
-  :system/demoOffer         :demoOffer/WALK
+  :system/demoOffer           :demoOffer/WALK
   }
  ;;report
  {
@@ -372,7 +372,7 @@
   :question/type             :question/faveTvShow
   :constraint/dnfRule        :rule/storeMax999
   :report/demoType            "M"
-  :report/sourceType          "F"
+  :question/sourceType          "F"
   }
 
 
@@ -403,7 +403,7 @@
     :doNotShow/form             [
                                     ;; GAME
                                     #db/id[:db.part/user -11035]
-                                    ;; WALK
+                                    ;; WLK
                                     #db/id[:db.part/user -111035]
                                     ;; MRVL
                                     #db/id[:db.part/user -11111035]

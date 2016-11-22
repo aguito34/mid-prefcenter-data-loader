@@ -87,15 +87,15 @@
     :question/type              :question/regESelection
     :answer/demoChoice           "REG7"
     :answer/displayName         "selection 7"
-    :answer/regESelection      :regESelection/REG7
+    :answer/regESelection       :regESelection/REG7
     }
 
     {
     :db/id                      #db/id[:db.part/user -1002]
     :question/type              :question/regESelection
-    :answer/demoChoice           "REG9"
+    :answer/demoChoice          "REG9"
     :answer/displayName         "selection 9"
-    :answer/regESelection      :regESelection/REG9
+    :answer/regESelection       :regESelection/REG9
     }
 
     {
@@ -103,7 +103,7 @@
     :question/type              :question/regESelection
     :answer/demoChoice          "REGN"
     :answer/displayName         "selection N"
-    :answer/regESelection      :regESelection/REGN
+    :answer/regESelection       :regESelection/REGN
     }
 
     {
@@ -137,6 +137,11 @@
     {
     :db/id                      #db/id[:db.part/user -1005]
     :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
+   :sampleSpace/dateAdded      #inst "2011-04-30T00:00:00Z"
+   :sampleSpace/dateModified   #inst "2011-04-30T00:00:00Z"
+   :sampleSpace/lastModifiedBy  :user/XAT
+   :sampleSpace/recordType     :recordType/P
+   :sampleSpace/override       :override/I
     :answerSet/answer           [#db/id[:db.part/user -1001] #db/id[:db.part/user -1002] #db/id[:db.part/user -1003] #db/id[:db.part/user -1004]
                              #db/id[:db.part/user -100413] #db/id[:db.part/user -100412] #db/id[:db.part/user -100411]]
     :system/demoOffer            :demoOffer/AREG
@@ -153,7 +158,7 @@
     :question/type             :question/regESelection
     :constraint/dnfRule        #db/id[:db.part/user -8800211]
     :report/demoType            "M"
-    :report/sourceType          "O"
+    :question/sourceType          "O"
     }
 
     ;; -------------------- REG-DRG E SELECTION ANSWER------------------------
@@ -178,6 +183,11 @@
     :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
     :answerSet/answer           [#db/id[:db.part/user -10012]]
     :system/demoOffer            :demoOffer/ADRG
+    :sampleSpace/dateAdded      #inst "2011-04-30T00:00:00Z"
+        :sampleSpace/dateModified   #inst "2011-04-30T00:00:00Z"
+        :sampleSpace/lastModifiedBy  :user/XAT
+        :sampleSpace/recordType     :recordType/P
+        :sampleSpace/override       :override/I
     }
     {
     :db/id                       #db/id[:db.part/user -10061]
@@ -191,7 +201,7 @@
     :question/type             :question/regESelectionDRG
     :constraint/dnfRule        #db/id[:db.part/user -8800211]
     :report/demoType            "M"
-    :report/sourceType          "O"
+    :question/sourceType          "O"
     }
 
     ;; -------------------- REG-RG0 E SELECTION ANSWER------------------------
@@ -216,6 +226,11 @@
     :sizeOfSelection/dnfRule    #db/id[:db.part/user -21111]
     :answerSet/answer           [#db/id[:db.part/user -100121]]
     :system/demoOffer           :demoOffer/ARG0
+    :sampleSpace/dateAdded      #inst "2016-11-21T00:00:00Z"
+    :sampleSpace/dateModified   #inst "2010-11-21T00:00:00Z"
+    :sampleSpace/lastModifiedBy  :user/XPC
+    :sampleSpace/recordType     :recordType/P
+    :sampleSpace/override       :override/I
     }
     {
     :db/id                       #db/id[:db.part/user -100611]
@@ -228,7 +243,7 @@
     :question/type             :question/regESelectionRG0
     :constraint/dnfRule        #db/id[:db.part/user -8800211]
     :report/demoType            "M"
-    :report/sourceType          "O"
+    :question/sourceType          "O"
     }
 
     ]
