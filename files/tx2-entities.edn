@@ -80,6 +80,7 @@
     :question/demoCode          "REG"
     :question/displayName       "REG E SELECTION"
     :question/createdBy         :magcd/ALL
+    :question/sourceType          "O"
     }
 
     {
@@ -158,7 +159,6 @@
     :question/type             :question/regESelection
     :constraint/dnfRule        #db/id[:db.part/user -8800211]
     :report/demoType            "M"
-    :question/sourceType          "O"
     }
 
     ;; -------------------- REG-DRG E SELECTION ANSWER------------------------
@@ -168,6 +168,7 @@
     :question/demoCode          "DRG"
     :question/displayName       "REG-DRG E SELECTION"
     :question/createdBy         :magcd/ALL
+    :question/sourceType          "O"
     }
 
     {
@@ -201,7 +202,6 @@
     :question/type             :question/regESelectionDRG
     :constraint/dnfRule        #db/id[:db.part/user -8800211]
     :report/demoType            "M"
-    :question/sourceType          "O"
     }
 
     ;; -------------------- REG-RG0 E SELECTION ANSWER------------------------
@@ -211,6 +211,7 @@
     :question/demoCode          "RG0"
     :question/displayName       "REG-RG0 E SELECTION"
     :question/createdBy         :magcd/ALL
+     :question/sourceType          "O"
     }
 
     {
@@ -243,7 +244,6 @@
     :question/type             :question/regESelectionRG0
     :constraint/dnfRule        #db/id[:db.part/user -8800211]
     :report/demoType            "M"
-    :question/sourceType          "O"
     }
 
     ]

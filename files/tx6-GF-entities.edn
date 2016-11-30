@@ -19,6 +19,7 @@
   :question/demoCode          "IMP"
   :question/displayName       "GF MASS ADVANCE IMPROVE GAME"
   :question/createdBy         :magcd/GF
+    :question/sourceType          "F"
   }
  ;;answers
  {
@@ -141,7 +142,6 @@
   :question/type             :question/golfImprovement
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "M"
-  :question/sourceType          "F"
   }
  ;;--------------------golf handcap score ----------------------
  ;;question
@@ -151,6 +151,7 @@
   :question/demoCode          "HCP"
   :question/displayName       "GOLF HANDICAP SCORE"
   :question/createdBy         :magcd/GF
+    :question/sourceType          "F"
   }
  ;;answer
  {
@@ -184,7 +185,6 @@
   :question/type             :question/golfHdcapScore
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "M"
-  :question/sourceType          "F"
   }
 
  ;;--------------------challenge USA----------------------
@@ -195,6 +195,7 @@
   :question/demoCode           "CHL"
   :question/displayName        "THE CHALLENGE USA"
   :question/createdBy         :magcd/GF
+  :question/sourceType          "O"
   }
  ;;answer
  {
@@ -226,7 +227,6 @@
   :question/type             :question/challengeUSA
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "S"
-  :question/sourceType          "O"
   }
 
 

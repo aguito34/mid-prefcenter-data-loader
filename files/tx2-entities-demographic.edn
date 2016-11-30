@@ -40,6 +40,7 @@
             :question/demoCode          "UMS"
             :question/displayName       "SUBSCRIBER TYPE"
             :question/createdBy         :magcd/ALL
+            :question/sourceType          "F"
         }
 
         ;; guuid-subscriberType-1
@@ -165,7 +166,6 @@
         :question/type             :question/subscriberType
         :constraint/dnfRule        #db/id[:db.part/user -8800211]
         :report/demoType            "M"
-        :question/sourceType          "F"
         }
 
         ;; ------------------ INCOME --------------------
@@ -183,6 +183,7 @@
             :question/demoCode          "INC"
             :question/displayName       "What is your income?"
             :question/createdBy         :magcd/ALL
+             :question/sourceType          "L"
         }
         {
             :db/id                      #db/id[:db.part/user -3025]
@@ -207,7 +208,7 @@
         :question/type             :question/income
         :constraint/dnfRule        #db/id[:db.part/user -8800211]
         :report/demoType            "M"
-        :question/sourceType          "L"
+
         }
 
        ;; ------------------ SELF REPORTED BIRTHDAY --------------------
@@ -225,6 +226,7 @@
             :question/demoCode          "BDY"
             :question/displayName       "When is your birthday?"
             :question/createdBy         :magcd/ALL
+             :question/sourceType          "O"
         }
         {
             :db/id                      #db/id[:db.part/user -3037]
@@ -248,7 +250,6 @@
         :question/type             :question/birthdaySelfReport
         :constraint/dnfRule        #db/id[:db.part/user -8800211]
         :report/demoType            "M"
-        :question/sourceType          "O"
         }
 
         ;; ------------------ CHILDREN BIRTHDAY --------------------
@@ -266,6 +267,7 @@
             :question/demoCode          "POC"
             :question/displayName       "When is your child's birthday?"
             :question/createdBy         :magcd/ALL
+            :question/sourceType          "L"
         }
         {
             :db/id                      #db/id[:db.part/user -3043]
@@ -289,7 +291,6 @@
         :question/type             :question/childBirthday
         :constraint/dnfRule        #db/id[:db.part/user -8800211]
         :report/demoType            "M"
-        :question/sourceType          "L"
         }
 
      ;; -------------------- CAPMODEL ANSWER------------------------
@@ -299,6 +300,7 @@
       :question/demoCode          "MDL"
       :question/displayName       "cap model score"
       :question/createdBy         :magcd/ALL
+      :question/sourceType          "L"
       }
 
      {
@@ -330,7 +332,6 @@
       :question/type             :question/capModel
       :constraint/dnfRule        #db/id[:db.part/user -8800211]
       :report/demoType            "M"
-      :question/sourceType          "L"
       }
 
 
@@ -341,6 +342,7 @@
     	:question/demoCode          "LNN"
     	:question/displayName       "renew online score"
     	:question/createdBy         :magcd/ALL
+    	:question/sourceType          "L"
     	}
 
      {
@@ -372,7 +374,6 @@
     	:question/type             :question/renewOnlineScore
     	:constraint/dnfRule        #db/id[:db.part/user -8800211]
     	:report/demoType            "M"
-    	:question/sourceType          "L"
     	}
 
 ;; -------------------- Price Sensitivity Model ------------------------
@@ -382,6 +383,7 @@
     	:question/demoCode          "PSM"
     	:question/displayName       "Price Sensitivity Model"
     	:question/createdBy         :magcd/ALL
+    	:question/sourceType          "L"
     	}
 
      {
@@ -412,7 +414,6 @@
     	:question/type             :question/priceSensitivityModel
     	:constraint/dnfRule        #db/id[:db.part/user -8800211]
     	:report/demoType            "M"
-    	:question/sourceType          "L"
     	}
 
 ]

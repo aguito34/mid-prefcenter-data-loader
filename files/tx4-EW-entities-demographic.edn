@@ -22,6 +22,7 @@
   :question/demoCode          "EWI"
   :question/displayName       "TW transactional data"
   :question/createdBy         :magcd/EW
+   :question/sourceType          "L"
   }
 
  ;;answer
@@ -50,7 +51,7 @@
   :question/type             :question/twTransactData
   :constraint/dnfRule       :rule/storeMax999
   :report/demoType            "M"
-  :question/sourceType          "L"
+
   }
 
  ;; -------------------- School Plan Model------------------------
@@ -61,6 +62,7 @@
   :question/demoCode          "SCL"
   :question/displayName       "School Plan Model"
   :question/createdBy         :magcd/EW
+  :question/sourceType          "L"
   }
 
  ;;answer
@@ -89,7 +91,6 @@
   :question/type             :question/schoolModel
   :constraint/dnfRule        :rule/storeMax999
   :report/demoType            "M"
-  :question/sourceType          "L"
   }
 
 ;; -------------------- Exclude Cigarette Ads------------------------
@@ -100,6 +101,7 @@
   :question/demoCode          "CIG"
   :question/displayName       "exclude cigarette ads"
   :question/createdBy         :magcd/EW
+  :question/sourceType          "O"
   }
 
  ;;answer
@@ -128,7 +130,6 @@
   :question/type             :question/excludeCigaretteAds
   :constraint/dnfRule       :rule/storeMax999
   :report/demoType            "M"
-  :question/sourceType          "O"
   }
 
   ;; group all form entities

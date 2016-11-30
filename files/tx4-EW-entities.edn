@@ -88,6 +88,7 @@
 	:question/demoCode          "GNR"
 	:question/displayName       "FAVORITE GENRE"
 	:question/createdBy         :magcd/EW
+	:question/sourceType          "F"
 	}
 
  ;;AGNR
@@ -159,7 +160,6 @@
   :question/type             :question/faveGenre
   :constraint/dnfRule        :rule/storeMax999
   :report/demoType            "M"
-  :question/sourceType          "F"
   }
 
 
@@ -313,6 +313,7 @@
         :question/demoCode        "TVS"
         :question/displayName       "FAVORITE TV SHOW"
         :question/createdBy         :magcd/EW
+         :question/sourceType          "F"
     }
 
  ;;ATVS
@@ -372,7 +373,6 @@
   :question/type             :question/faveTvShow
   :constraint/dnfRule        :rule/storeMax999
   :report/demoType            "M"
-  :question/sourceType          "F"
   }
 
 

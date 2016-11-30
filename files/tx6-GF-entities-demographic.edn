@@ -20,6 +20,7 @@
   :question/demoCode          "AGS"
   :question/displayName       "AVERAGE GOLF SCORE"
   :question/createdBy         :magcd/GF
+  :question/sourceType          "L"
   }
  ;;answer
  {
@@ -51,7 +52,7 @@
   :question/type             :question/averageGolfScore
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "M"
-  :question/sourceType          "L"
+
   }
 
  ;;--------------------round played score----------------------
@@ -62,6 +63,7 @@
   :question/demoCode           "GLF"
   :question/displayName        "SI GOLF PLUS SURVEY REPONDERS ROUNDS PLAYED"
   :question/createdBy         :magcd/GF
+  :question/sourceType          "L"
   }
  ;;answer
  {
@@ -93,7 +95,6 @@
   :question/type             :question/respondToGolfRoundPlayed
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "M"
-  :question/sourceType          "L"
   }
 
 ;;--------------------affluent edition corp db----------------------
@@ -104,6 +105,7 @@
   :question/demoCode           "AF3"
   :question/displayName        "AFFLUENT EDITION CORP DATABASE"
   :question/createdBy         :magcd/GF
+  :question/sourceType          "F"
   }
  ;;answer
  {
@@ -135,7 +137,7 @@
   :question/type             :question/affluentEditionCorpDb
   :constraint/dnfRule         :rule/storeMax999
   :report/demoType            "S"
-  :question/sourceType          "F"
+
   }
 
   ;; group all form entities
