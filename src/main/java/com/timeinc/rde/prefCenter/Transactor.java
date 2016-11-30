@@ -28,6 +28,7 @@ public class Transactor {
         String fileNameWithPathSelf = "gf-0930-self-reported/gf_uniq_dt0930.csv.quads";
         String uriDemo = "datomic:dev://localhost:4334/testdemo";
         String fileNameWithPathDemo = "gf-0930-demographic/gf_uniq_dt0930.csv.quads";
+
         String uriSelfServer = "datomic:ddb://us-east-1/ti-use1b-rde-dynamo-preference-center-ask-james-ruska-at-timeinc/selfReported";
         String uriDemoServer = "datomic:ddb://us-east-1/ti-use1b-rde-dynamo-preference-center-ask-james-ruska-at-timeinc/demographic";
 
@@ -49,15 +50,24 @@ public class Transactor {
             String opt = in.next();
             if(opt.toLowerCase().compareTo("y")!=0){
                 transactLocal = false;
-                System.out.println("Continue with version 0930: (y/n)");
-                in = new Scanner(System.in);
-                opt = in.next();
-                if(opt.toLowerCase().compareTo("y")!=0){
-                    System.out.println("Please pass following arguments: [mag_code] [uri_self] [fileNameWithPath_self] [start_file] [end_file] [create_database_boolean]");
-                    System.exit(0);
-                }
+//                System.out.println("Version(mmdd):");
+//                in = new Scanner(System.in);
+//                op = in.next();
+//                if(opt.toLowerCase().compareTo("y")!=0){
+//                    System.out.println("Please pass following arguments: [mag_code] [uri_self] [fileNameWithPath_self] [start_file] [end_file] [create_database_boolean]");
+//                    System.exit(0);
+//                }
             } else {
                 transactLocal = true;
+            }
+
+            System.out.println("Version: ");
+            version = in.next();
+            System.out.println("You entered " + version + " is it correct? y/n:");
+            opt = in.next();
+            if(opt.toLowerCase().compareTo("y")!=0){
+                System.out.println("Please start again");
+                System.exit(0);
             }
 
             System.out.println("Query counts (1) or transact (2):");
@@ -130,10 +140,10 @@ public class Transactor {
             String fileNameWithPath;
             if(transactSelfReported){
                 uri = uriSelfServer;
-                fileNameWithPath = magCode.toLowerCase() + "-0930-self-reported/" + magCode.toLowerCase()+ "_uniq_dt0930.csv.quads";
+                fileNameWithPath = magCode.toLowerCase() + "-" + version +"-self-reported/" + magCode.toLowerCase()+ "_uniq_dt"+version+".csv.quads";
             } else {
                 uri = uriDemoServer;
-                fileNameWithPath = magCode.toLowerCase() + "-0930-demographic/" + magCode.toLowerCase()+ "_uniq_dt0930.csv.quads";
+                fileNameWithPath = magCode.toLowerCase() + "-"+ version +"-demographic/" + magCode.toLowerCase()+ "_uniq_dt"+version+".csv.quads";
             }
             System.out.println("File name: " + fileNameWithPath + " start " + startFile + " endFile " + endFile);
             verify(in);
